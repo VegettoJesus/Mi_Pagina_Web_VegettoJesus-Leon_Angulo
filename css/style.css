@@ -33,11 +33,11 @@ body {
 header {
     display: flex;
     z-index: 1;
-    height: 70px;
+    height: 90px;
     background-color: rgb(43, 43, 43);
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 20px;
     position: sticky;
     top: 0px;
     grid-area: header;
@@ -83,13 +83,34 @@ nav a:hover {
 }
 
 .portada {
-    background-image: url(../images/Imagen\ 2.jpeg);
-    height: 700px;
-    background-size: 100%;
-    background-repeat: no-repeat;
     grid-area: portada;
 }
-
+.carousel-control-next{
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 30px;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-top: 25%;
+    margin-right: 5%;
+    z-index: 0;
+}
+.carousel-control-prev{
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 30px;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-top: 25%;
+    margin-left: 5%;
+    z-index: 0;
+}
 #principal {
     grid-area: main;
     display: grid;
@@ -157,6 +178,7 @@ aside {
 .more:hover {
     background: #a945c7;
     box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+    color: white;
     transition-delay: 0.1s;
 }
 
