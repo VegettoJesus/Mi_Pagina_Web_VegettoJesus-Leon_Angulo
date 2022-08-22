@@ -299,7 +299,7 @@ aside {
     margin: 0.2em 0.5em 0.2em 0;
     float: left;
     border-radius: 5px;
-    max-width: 35%;
+    max-width: 70%;
     border: 5px solid #e6e6e6;
     transform:
         perspective(750px) translate3d(0px, 0px, -250px) rotateX(27deg) scale(0.9, 0.9);
@@ -1295,31 +1295,19 @@ aside .fanart h3 {
     padding-left: 0.5em;
     font-size: 25px;
     color: wheat;
+    margin-top: 150px;
+    margin-bottom: 200px;
 }
-
 .carta {
+    grid-area: carta1;
     background: linear-gradient(180deg, rgba(28, 28, 28, 0.437), rgb(242, 249, 255, 0.56));
     border-radius: 10px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    grid-area: carta1;
 }
-
 .carta:hover {
     transform: translateY(-15px);
     box-shadow: 0 12px 16px rgb(0, 0, 0, 0.2);
 }
-
-.info {
-    padding-inline: 20px;
-}
-
-.caja img {
-    max-width: 100%;
-}
-
-.carta h4 {
+.carta h5 {
     margin-bottom: 10px;
     font-size: 20px;
     font-family: 'anime';
@@ -1327,53 +1315,35 @@ aside .fanart h3 {
     text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff;
     text-align: center;
 }
-
 .button_mediafire {
-    background-color: rgb(11, 54, 98);
     border-radius: 3px;
     border: 3px solid white;
     padding: 10px;
     color: white;
     font-weight: bold;
+    display: flex;
+    text-decoration: none;
 }
-
-.button_mediafire:hover {
-    background: rgb(15, 108, 201);
-    box-shadow: 0 0 10px rgb(15, 108, 201), 0 0 40px rgb(15, 108, 201), 0 0 80px rgb(15, 108, 201);
-    transition-delay: 0.1s;
-}
-
 .button_mega {
-    background-color: rgb(171, 33, 28);
     border-radius: 3px;
     border: 3px solid white;
     padding: 10px;
     color: white;
     font-weight: bold;
+    display: flex;
+    margin-top: 10px;
+    text-decoration: none;
 }
-
-.button_mega:hover {
-    background: rgb(233, 35, 29);
-    box-shadow: 0 0 10px rgb(233, 35, 29), 0 0 40px rgb(233, 35, 29), 0 0 80px rgb(233, 35, 29);
-    transition-delay: 0.1s;
-}
-
 .carta2 {
     background: linear-gradient(180deg, rgba(28, 28, 28, 0.437), rgb(242, 249, 255, 0.56));
     border-radius: 10px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
     grid-area: carta2;
 }
-
 .carta2:hover {
     transform: translateY(-15px);
     box-shadow: 0 12px 16px rgb(0, 0, 0, 0.2);
 }
-
-.carta2 h4 {
+.carta2 h5 {
     margin-bottom: 10px;
     font-size: 20px;
     font-family: 'anime';
@@ -1381,23 +1351,16 @@ aside .fanart h3 {
     text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff;
     text-align: center;
 }
-
 .carta3 {
     background: linear-gradient(180deg, rgba(28, 28, 28, 0.437), rgb(242, 249, 255, 0.56));
     border-radius: 10px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
     grid-area: carta3;
 }
-
 .carta3:hover {
     transform: translateY(-15px);
     box-shadow: 0 12px 16px rgb(0, 0, 0, 0.2);
 }
-
-.carta3 h4 {
+.carta3 h5 {
     margin-bottom: 10px;
     font-size: 20px;
     font-family: 'anime';
@@ -1405,23 +1368,16 @@ aside .fanart h3 {
     text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff;
     text-align: center;
 }
-
 .carta4 {
     background: linear-gradient(180deg, rgba(28, 28, 28, 0.437), rgb(242, 249, 255, 0.56));
     border-radius: 10px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
     grid-area: carta4;
 }
-
 .carta4:hover {
     transform: translateY(-15px);
     box-shadow: 0 12px 16px rgb(0, 0, 0, 0.2);
 }
-
-.carta4 h4 {
+.carta4 h5 {
     margin-bottom: 10px;
     font-size: 20px;
     font-family: 'anime';
@@ -1429,23 +1385,16 @@ aside .fanart h3 {
     text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff;
     text-align: center;
 }
-
 .carta5 {
     background: linear-gradient(180deg, rgba(28, 28, 28, 0.437), rgb(242, 249, 255, 0.56));
     border-radius: 10px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
     grid-area: carta5;
 }
-
 .carta5:hover {
     transform: translateY(-15px);
     box-shadow: 0 12px 16px rgb(0, 0, 0, 0.2);
 }
-
-.carta5 h4 {
+.carta5 h5{
     margin-bottom: 10px;
     font-size: 20px;
     font-family: 'anime';
@@ -1453,23 +1402,16 @@ aside .fanart h3 {
     text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff;
     text-align: center;
 }
-
 .carta6 {
     background: linear-gradient(180deg, rgba(28, 28, 28, 0.437), rgb(242, 249, 255, 0.56));
     border-radius: 10px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
     grid-area: carta6;
 }
-
 .carta6:hover {
     transform: translateY(-15px);
     box-shadow: 0 12px 16px rgb(0, 0, 0, 0.2);
 }
-
-.carta6 h4 {
+.carta6 h5 {
     margin-bottom: 10px;
     font-size: 20px;
     font-family: 'anime';
@@ -1477,23 +1419,16 @@ aside .fanart h3 {
     text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff;
     text-align: center;
 }
-
 .carta7 {
     background: linear-gradient(180deg, rgba(28, 28, 28, 0.437), rgb(242, 249, 255, 0.56));
     border-radius: 10px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
     grid-area: carta7;
 }
-
 .carta7:hover {
     transform: translateY(-15px);
     box-shadow: 0 12px 16px rgb(0, 0, 0, 0.2);
 }
-
-.carta7 h4 {
+.carta7 h5 {
     margin-bottom: 10px;
     font-size: 20px;
     font-family: 'anime';
@@ -1501,23 +1436,16 @@ aside .fanart h3 {
     text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff;
     text-align: center;
 }
-
 .carta8 {
     background: linear-gradient(180deg, rgba(28, 28, 28, 0.437), rgb(242, 249, 255, 0.56));
     border-radius: 10px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
     grid-area: carta8;
 }
-
 .carta8:hover {
     transform: translateY(-15px);
     box-shadow: 0 12px 16px rgb(0, 0, 0, 0.2);
 }
-
-.carta8 h4 {
+.carta8 h5 {
     margin-bottom: 10px;
     font-size: 20px;
     font-family: 'anime';
@@ -1525,23 +1453,16 @@ aside .fanart h3 {
     text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff;
     text-align: center;
 }
-
 .carta9 {
     background: linear-gradient(180deg, rgba(28, 28, 28, 0.437), rgb(242, 249, 255, 0.56));
     border-radius: 10px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
     grid-area: carta9;
 }
-
 .carta9:hover {
     transform: translateY(-15px);
     box-shadow: 0 12px 16px rgb(0, 0, 0, 0.2);
 }
-
-.carta9 h4 {
+.carta9 h5 {
     margin-bottom: 10px;
     font-size: 20px;
     font-family: 'anime';
@@ -1549,23 +1470,16 @@ aside .fanart h3 {
     text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff;
     text-align: center;
 }
-
 .carta10 {
     background: linear-gradient(180deg, rgba(28, 28, 28, 0.437), rgb(242, 249, 255, 0.56));
     border-radius: 10px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
     grid-area: carta10;
 }
-
 .carta10:hover {
     transform: translateY(-15px);
     box-shadow: 0 12px 16px rgb(0, 0, 0, 0.2);
 }
-
-.carta10 h4 {
+.carta10 h5 {
     margin-bottom: 10px;
     font-size: 20px;
     font-family: 'anime';
@@ -1573,23 +1487,16 @@ aside .fanart h3 {
     text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff;
     text-align: center;
 }
-
 .carta11 {
     background: linear-gradient(180deg, rgba(28, 28, 28, 0.437), rgb(242, 249, 255, 0.56));
     border-radius: 10px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
     grid-area: carta11;
 }
-
 .carta11:hover {
     transform: translateY(-15px);
     box-shadow: 0 12px 16px rgb(0, 0, 0, 0.2);
 }
-
-.carta11 h4 {
+.carta11 h5 {
     margin-bottom: 10px;
     font-size: 20px;
     font-family: 'anime';
@@ -1597,23 +1504,16 @@ aside .fanart h3 {
     text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff;
     text-align: center;
 }
-
 .carta12 {
     background: linear-gradient(180deg, rgba(28, 28, 28, 0.437), rgb(242, 249, 255, 0.56));
     border-radius: 10px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
     grid-area: carta12;
 }
-
 .carta12:hover {
     transform: translateY(-15px);
     box-shadow: 0 12px 16px rgb(0, 0, 0, 0.2);
 }
-
-.carta12 h4 {
+.carta12 h5 {
     margin-bottom: 10px;
     font-size: 20px;
     font-family: 'anime';
@@ -1621,23 +1521,16 @@ aside .fanart h3 {
     text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff;
     text-align: center;
 }
-
 .carta13 {
     background: linear-gradient(180deg, rgba(28, 28, 28, 0.437), rgb(242, 249, 255, 0.56));
     border-radius: 10px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
     grid-area: carta13;
 }
-
 .carta13:hover {
     transform: translateY(-15px);
     box-shadow: 0 12px 16px rgb(0, 0, 0, 0.2);
 }
-
-.carta13 h4 {
+.carta13 h5 {
     margin-bottom: 10px;
     font-size: 20px;
     font-family: 'anime';
@@ -1645,23 +1538,17 @@ aside .fanart h3 {
     text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff;
     text-align: center;
 }
-
 .carta14 {
     background: linear-gradient(180deg, rgba(28, 28, 28, 0.437), rgb(242, 249, 255, 0.56));
     border-radius: 10px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
     grid-area: carta14;
 }
-
 .carta14:hover {
     transform: translateY(-15px);
     box-shadow: 0 12px 16px rgb(0, 0, 0, 0.2);
 }
 
-.carta14 h4 {
+.carta14 h5 {
     margin-bottom: 10px;
     font-size: 20px;
     font-family: 'anime';
@@ -1669,23 +1556,16 @@ aside .fanart h3 {
     text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff;
     text-align: center;
 }
-
 .carta15 {
     background: linear-gradient(180deg, rgba(28, 28, 28, 0.437), rgb(242, 249, 255, 0.56));
     border-radius: 10px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
     grid-area: carta15;
 }
-
 .carta15:hover {
     transform: translateY(-15px);
     box-shadow: 0 12px 16px rgb(0, 0, 0, 0.2);
 }
-
-.carta15 h4 {
+.carta15 h5 {
     margin-bottom: 10px;
     font-size: 20px;
     font-family: 'anime';
