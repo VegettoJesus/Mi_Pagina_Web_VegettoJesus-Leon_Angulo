@@ -114,11 +114,11 @@ nav a:hover {
 #principal {
     grid-area: main;
     display: grid;
-    grid-template-rows: .1fr 1fr 1fr;
+    grid-template-rows: .1fr 1fr .1fr;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "seccionnuevas seccionnuevas"
         "secmods aside"
-        "noticias aside";
+        "noticias noticias";
 }
 .seccionnuevas{
     grid-area: seccionnuevas;
@@ -219,7 +219,8 @@ aside {
     background-color: beige;
     margin-top: 10px;
     margin-left: 50px;
-    margin-bottom: 60em;
+    margin-right: 50px;
+    margin-bottom: 80em;
     background-color: rgb(46, 47, 54);
     border-radius: 5px;
     border: 5px solid white;
@@ -236,7 +237,7 @@ aside {
 }
 
 .more {
-    margin-left: 500px;
+    margin-left: 300px;
     display: inline-block;
     padding: 15px 30px;
     color: white;
@@ -258,7 +259,7 @@ aside {
 }
 
 .tarjmod {
-    width: 280px;
+    width: 580px;
     transform: perspective(750px) translate3d(0px, 0px, -250px) rotateX(27deg) scale(0.9, 0.9);
     border-radius: 20px;
     border: 5px solid #e6e6e6;
@@ -320,8 +321,10 @@ aside {
 
 .news p {
     color: white;
-    margin: 25px;
+    margin: 50px;
     text-align: left;
+    font-size: 25px;
+    font-family: 'letra1';
 }
 
 /* ASIDE */
@@ -425,6 +428,24 @@ aside .fanart img {
 }
 
 aside .fanart h3 {
+    padding: 15px;
+    font-family: 'anime';
+    text-shadow: 0 0 1px rgb(255, 255, 255), 0 0 3px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff;
+}
+.twitch {
+    display: flex;
+    padding: 15px;
+}
+aside .twitch {
+    background: linear-gradient(270deg, rgb(218, 237, 121), rgb(162, 17, 182));
+}
+
+aside .twitch img {
+    width: 100px;
+    height: 100px;
+}
+
+aside .twitch h3 {
     padding: 15px;
     font-family: 'anime';
     text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff;
@@ -759,6 +780,23 @@ aside .fanart h3 {
     }
 
     aside .fanart h3 {
+        padding: 2px;
+        padding-left: 15px;
+        font-size: 13px;
+    }
+    .twitch {
+        display: flex;
+        padding: 10px;
+    }
+    aside .twitch{
+        display: flex;
+        padding: 10px;
+    }
+    aside .twitch img {
+        width: 50px;
+        height: 50px;
+    }
+    aside .twitch h3 {
         padding: 2px;
         padding-left: 15px;
         font-size: 13px;
