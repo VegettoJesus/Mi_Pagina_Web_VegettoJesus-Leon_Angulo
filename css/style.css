@@ -118,7 +118,7 @@ nav a:hover {
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "seccionnuevas seccionnuevas"
         "secmods aside"
-        "noticias noticias";
+        "noticias aside";
 }
 .seccionnuevas{
     grid-area: seccionnuevas;
@@ -259,7 +259,7 @@ aside {
 }
 
 .tarjmod {
-    width: 580px;
+    width: 280px;
     transform: perspective(750px) translate3d(0px, 0px, -250px) rotateX(27deg) scale(0.9, 0.9);
     border-radius: 20px;
     border: 5px solid #e6e6e6;
@@ -323,7 +323,6 @@ aside {
     color: white;
     margin: 50px;
     text-align: left;
-    font-size: 25px;
     font-family: 'letra1';
 }
 
