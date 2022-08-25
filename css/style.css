@@ -852,13 +852,9 @@ aside .twitch h3 {
 }
 
 .aviso {
-    margin-top: 10px;
     margin-left: 150px;
     margin-right: 150px;
-    margin-bottom: 50px;
     background-color: rgb(46, 47, 54);
-    border-radius: 5px;
-    border: 5px solid white;
     grid-area: aviso;
     display: grid;
     grid-template-rows: .2fr .5fr .5fr .5fr .5fr .5fr .5fr .5fr .5fr;
@@ -873,212 +869,135 @@ aside .twitch h3 {
         "carta7"
         "carta8";
 }
-
 .notititulo {
-    border-left: solid 5px rgb(224, 56, 0);
-    margin: 25px;
-    padding-left: 0.5em;
-    font-size: 25px;
     color: wheat;
     grid-area: titulo;
 }
-
 .aviso div h3 {
     background: #8AF;
     font-family: 'letra1';
     text-align: center;
-    margin: 0;
     padding: 0.5em;
     display: block;
-    font-size: 1.17em;
     margin-block-start: 1em;
     margin-block-end: 1em;
 }
-
 .cartanoticia {
     padding-left: 150px;
     padding-right: 150px;
     grid-area: "carta1";
 }
-
 .cartanoticia img {
     margin: 0.2em 0.5em 0.2em 0;
     float: left;
-    border-radius: 5px;
     max-width: 35%;
-    border: 5px solid #e6e6e6;
 }
-
 .datedia {
-    color: white;
     font-family: 'letra1';
     float: right;
-    margin-top: 20px;
-    padding: 10px;
 }
-
 .cartanoticia p {
-    color: white;
-    margin: 25px;
     text-align: left;
-    font-family: 'letra_2';
-    font-size: 20px;
+    font-family: 'letra1';
 }
-
 .cartanoticia2 {
     padding-left: 150px;
     padding-right: 150px;
     grid-area: "carta2";
 }
-
 .cartanoticia2 img {
     margin: 0.2em 0.5em 0.2em 0;
     float: left;
-    border-radius: 5px;
     max-width: 35%;
-    border: 5px solid #e6e6e6;
 }
-
 .cartanoticia2 p {
-    color: white;
-    margin: 25px;
     text-align: left;
-    font-family: 'letra_2';
-    font-size: 20px;
+    font-family: 'letra1';
 }
-
 .cartanoticia3 {
     padding-left: 150px;
     padding-right: 150px;
     grid-area: "carta3";
 }
-
 .cartanoticia3 img {
     margin: 0.2em 0.5em 0.2em 0;
     float: left;
-    border-radius: 5px;
     max-width: 35%;
-    border: 5px solid #e6e6e6;
 }
-
 .cartanoticia3 p {
-    color: white;
-    margin: 25px;
     text-align: left;
-    font-family: 'letra_2';
-    font-size: 20px;
+    font-family: 'letra1';
 }
-
 .cartanoticia4 {
     padding-left: 150px;
     padding-right: 150px;
     grid-area: "carta4";
 }
-
 .cartanoticia4 img {
     margin: 0.2em 0.5em 0.2em 0;
     float: left;
-    border-radius: 5px;
     max-width: 35%;
-    border: 5px solid #e6e6e6;
 }
-
 .cartanoticia4 p {
-    color: white;
-    margin: 25px;
     text-align: left;
-    font-family: 'letra_2';
-    font-size: 20px;
+    font-family: 'letra1';
 }
-
 .cartanoticia5 {
     padding-left: 150px;
     padding-right: 150px;
     grid-area: "carta5";
 }
-
 .cartanoticia5 img {
     margin: 0.2em 0.5em 0.2em 0;
     float: left;
-    border-radius: 5px;
     max-width: 35%;
-    border: 5px solid #e6e6e6;
 }
-
 .cartanoticia5 p {
-    color: white;
-    margin: 25px;
     text-align: left;
-    font-family: 'letra_2';
-    font-size: 20px;
+    font-family: 'letra1';
 }
-
 .cartanoticia6 {
     padding-left: 150px;
     padding-right: 150px;
     grid-area: "carta6";
 }
-
 .cartanoticia6 img {
     margin: 0.2em 0.5em 0.2em 0;
     float: left;
-    border-radius: 5px;
     max-width: 35%;
-    border: 5px solid #e6e6e6;
 }
-
 .cartanoticia6 p {
-    color: white;
-    margin: 25px;
     text-align: left;
-    font-family: 'letra_2';
-    font-size: 20px;
+    font-family: 'letra1';
 }
-
 .cartanoticia7 {
     padding-left: 150px;
     padding-right: 150px;
     grid-area: "carta7";
 }
-
 .cartanoticia7 img {
     margin: 0.2em 0.5em 0.2em 0;
     float: left;
-    border-radius: 5px;
     max-width: 35%;
-    border: 5px solid #e6e6e6;
 }
-
 .cartanoticia7 p {
-    color: white;
-    margin: 25px;
     text-align: left;
-    font-family: 'letra_2';
-    font-size: 20px;
+    font-family: 'letra1';
 }
-
 .cartanoticia8 {
     padding-left: 150px;
     padding-right: 150px;
     grid-area: "carta8";
 }
-
 .cartanoticia8 img {
     margin: 0.2em 0.5em 0.2em 0;
     float: left;
-    border-radius: 5px;
     max-width: 35%;
-    border: 5px solid #e6e6e6;
 }
-
 .cartanoticia8 p {
-    color: white;
-    margin: 25px;
     text-align: left;
-    font-family: 'letra_2';
-    font-size: 20px;
+    font-family: 'letra1';
 }
-
 @media only screen and (max-width: 1024px) {
     .cartanoticia {
         padding-left: 100px;
@@ -1612,7 +1531,7 @@ aside .twitch h3 {
 @media only screen and (max-width: 1024px) {
     #grilla3 {
         display: grid;
-        grid-template-rows: .01fr 1fr 3fr .1fr;
+        grid-template-rows: .01fr 1.5fr 3fr .1fr;
         grid-template-columns: 1fr;
         grid-template-areas: "header"
             "portada"
