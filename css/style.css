@@ -1313,7 +1313,6 @@ aside .twitch h3 {
         "listamods"
         "footer";
 }
-
 .listamods {
     grid-area: listamods;
     padding: 40px;
@@ -1610,7 +1609,6 @@ aside .twitch h3 {
     text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff;
     text-align: center;
 }
-
 @media only screen and (max-width: 1024px) {
     #grilla3 {
         display: grid;
@@ -1622,7 +1620,6 @@ aside .twitch h3 {
             "footer";
     }
 }
-
 @media only screen and (max-width: 500px) {
     .listamods .titmods {
         font-size: 12px;
@@ -1724,48 +1721,45 @@ aside .twitch h3 {
 
 #grilla4 {
     display: grid;
-    grid-template-rows: .01fr 1fr 1fr .1fr;
+    grid-template-rows: .01fr .1fr 1fr .1fr;
     grid-template-columns: 1fr;
     grid-template-areas: "header"
         "portada"
         "listvideos"
         "footer";
 }
-
-.lisvideos {
-    grid-area: listvideos;
-    margin: auto;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(46, 47, 54);
-    padding: 0 20px 20px 20px;
-    box-sizing: border-box;
-    min-width: 680px;
-    max-width: 980px;
+#carta-youtube{
+    margin: 0 1em;
+    width: calc(100%/4);
+    background: linear-gradient(260deg, rgba(58, 97, 95, 0.437), rgba(107, 16, 115, 0.56));
 }
-
-.columna h1 {
-    height: 55px;
-    display: flex;
-    border-left: solid 5px rgb(224, 56, 0);
-    margin: 25px;
-    padding-left: 0.5em;
-    font-size: 25px;
-    color: wheat;
-    align-items: center;
+#carta-youtube div h5{
+    font-family: 'anime';
+    text-shadow: 0 0 1px rgb(255, 255, 255), 0 0 3px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff;
 }
+#carta-youtube div a{
+    text-decoration: none;
 
-.seleccion {
-    display: flex;
-    position: relative;
-    justify-content: space-between;
 }
-
-.cartavideo1 {
-    padding-left: 40px;
+.seccionnuevas div h3{
+    display: inline-block;
 }
-
+.maslista {
+    margin-top: 10px;
+    margin-left: 800px;
+    padding: 15px 30px;
+    color: white;
+    letter-spacing: 4px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+}
+.maslista:hover {
+    background: #a945c7;
+    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+    color: white;
+    transition-delay: 0.1s;
+}
 @media only screen and (max-width: 1024px) {
     #grilla4 {
         display: grid;
@@ -1776,13 +1770,7 @@ aside .twitch h3 {
             "listvideos"
             "footer";
     }
-
-    .lisvideos {
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
 }
-
 @media only screen and (max-width: 500px) {
     #grilla4 {
         display: grid;
@@ -1793,25 +1781,7 @@ aside .twitch h3 {
             "listvideos"
             "footer";
     }
-
-    .lisvideos {
-        min-width: 180px;
-        max-width: 480px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-
-    .columna div iframe {
-        width: 250px;
-        height: 250px;
-    }
-
-    .seleccion div iframe {
-        width: 50px;
-        height: 50px;
-    }
 }
-
 /* ---------------CONTACTO-------------- */
 #grilla5 {
     display: grid;
@@ -1821,7 +1791,6 @@ aside .twitch h3 {
         "conoceme"
         "footer";
 }
-
 .conoceme {
     grid-area: conoceme;
 }
@@ -1862,7 +1831,6 @@ aside .twitch h3 {
         background-position: top right;
     }
 }
-
 .sobremi div {
     background-color: rgba(255, 255, 255, 0.522);
 }
