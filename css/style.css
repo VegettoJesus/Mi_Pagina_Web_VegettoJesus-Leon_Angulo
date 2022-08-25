@@ -92,9 +92,7 @@ nav ul li a {
         "secmods aside"
         "noticias aside";
 }
-.seccionnuevas{
-    grid-area: seccionnuevas;
-}
+.seccionnuevas{grid-area: seccionnuevas;}
 .seccionnuevas .cards-wrapper{
     display: flex;
     padding-left: 70px;
@@ -427,74 +425,10 @@ aside .twitch h3 {
 #footer {
     background-color: rgba(43, 43, 43, 0.374);
     grid-area: footer;
-    display: flex;
 }
-
-.caja1 {
-    width: 100%;
-}
-
-.caja2 {
-    width: 100%;
-}
-
-.caja3 {
-    width: 100%;
-}
-
-.caja1 h2 {
-    font-family: 'anime';
-    text-align: center;
-    color: white;
-}
-
-.caja1 p {
-    text-align: center;
-    color: white;
-}
-
-.caja2 h2 {
-    font-family: 'anime';
-    text-align: center;
-    color: white;
-}
-
-.caja2 ul {
-    list-style-type: none;
-    text-align: center;
-    font-weight: bold;
-}
-
-.caja3 h2 {
-    font-family: 'anime';
-    text-align: center;
-    color: white;
-}
-
-.caja3 ul {
-    list-style-type: none;
-    text-align: center;
-    font-weight: bold;
-}
-
-.caja2 a {
-    color: white;
-    text-decoration: none;
-}
-
-.caja3 a {
-    color: white;
-    text-decoration: none;
-}
-
-.caja2 a:hover {
-    color: rgb(255, 179, 0);
-}
-
-.caja3 a:hover {
-    color: rgb(255, 179, 0);
-}
-
+#footer div h2{font-family: 'anime';}
+#footer div p{font-family: 'letra1';}
+#footer div ul li{font-family: 'letra1';}
 @media only screen and (max-width: 1024px) {
     #grilla {
         display: grid;
