@@ -35,23 +35,10 @@ header {
     z-index: 1;
     grid-area: header;
 }
-.logo {
-    font-family: 'anime';
-    display: flex;
-}
-.logo img {
-    width: 70px;
-    height: 60px;
-    margin-right: 10px;
-}
-.logo h1 {
-    color: rgb(185, 213, 29);
-    font-size: 40px;
-    margin-top: 10px;
-}
-nav ul li a {
-    font-family: 'letra1';
-}
+.logo {font-family: 'anime';}
+.logo img {width: 70px;height: 60px;margin-right: 10px;}
+.logo h1 {color: rgb(185, 213, 29);font-size: 40px;margin-top: 10px;}
+nav ul li a {font-family: 'letra1';font-size: 30px;}
 .nav-link{color: white!important;}
 .nav-link:hover{color: rgb(234, 255, 0)!important;}
 .portada {
@@ -94,40 +81,17 @@ nav ul li a {
 }
 .seccionnuevas{grid-area: seccionnuevas;}
 .seccionnuevas .cards-wrapper{
-    display: flex;
     padding-left: 70px;
     padding-right: 70px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
-.seccionnuevas div h3{
-    border-left: solid 5px rgb(224, 56, 0);
-    padding-left: 0.5em;
-    font-size: 25px;
-    color: wheat;
-    margin-left: 80px;
-    margin-top: 50px;
-}
-#card{
-    margin: 0 1em;
-    width: calc(100%/4);
-    background: linear-gradient(180deg, rgba(18, 18, 18, 0.437), rgb(242, 249, 255, 0.56));
-}
-#card div h5{
-    font-family: 'anime';
-    text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff;
-}
-#card div p{
-    color: white;
-    font-family: 'letra1';
-}
-.image-wrapper{
-    height: 22vw;
-}
-.image-wrapper img{
-    max-width: 100%;
-    max-height: 100%;
-}
+.seccionnuevas div h3{border-left: solid 5px rgb(224, 56, 0);color: wheat;}
+#card{width: calc(100%/4);background: linear-gradient(180deg, rgba(18, 18, 18, 0.437), rgb(242, 249, 255, 0.56));}
+#card div h5{font-family: 'anime';text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff;}
+#card div p{font-family: 'letra1';}
+.image-wrapper{height: 22vw;}
+.image-wrapper img{max-width: 100%;max-height: 100%;}
 #button-prev2{
     background-color: rgba(255, 255, 255, 0.542);
     width: 6vh;
@@ -146,66 +110,17 @@ nav ul li a {
     transform: translateY(-50%); 
     margin-right: 30px;
 }
-#button-prev2{
-    z-index: 0;
-}
-#button-next2{
-    z-index: 0;
-}
-#button-prev2 span{
-    width: 1.5rem;
-    height: 1.5rem;
-}
-#button-next2 span{
-    width: 1.5rem;
-    height: 1.5rem;
-}
-
-.secmods {
-    margin-top: 10px;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 310px;
-    background-color: rgb(46, 47, 54);
-    border-radius: 5px;
-    border: 5px solid white;
-    padding: 50px;
-    grid-area: secmods;
-}
-
-.noticias {
-    margin-top: 10px;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 310px;
-    background-color: rgb(46, 47, 54);
-    border-radius: 5px;
-    border: 5px solid white;
-    padding: 50px;
-    grid-area: noticias;
-}
-
-aside {
-    background-color: beige;
-    margin-top: 10px;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 80em;
-    background-color: rgb(46, 47, 54);
-    border-radius: 5px;
-    border: 5px solid white;
-    grid-area: aside;
-}
+#button-prev2{z-index: 0;}
+#button-next2{z-index: 0;}
+#button-prev2 span{width: 1.5rem;height: 1.5rem;}
+#button-next2 span{width: 1.5rem;height: 1.5rem;}
+.secmods {background-color: rgb(46, 47, 54);margin-bottom: 30em;grid-area: secmods;}
+.noticias {background-color: rgb(46, 47, 54);grid-area: noticias;}
+aside {background-color: rgb(46, 47, 54);grid-area: aside;}
 
 /* DIV MODS 1 */
 
-.secmods div h3 {
-    border-left: solid 5px rgb(224, 56, 0);
-    padding-left: 0.5em;
-    font-size: 25px;
-    color: wheat;
-}
-
+.secmods div h3 {border-left: solid 5px rgb(224, 56, 0);color: wheat;}
 .more {
     margin-left: 300px;
     display: inline-block;
@@ -216,495 +131,169 @@ aside {
     overflow: hidden;
     transition: 0.2s;
 }
-
 .more:hover {
     background: #a945c7;
     box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
     color: white;
     transition-delay: 0.1s;
 }
-
-.tarj {
-    display: inline-block;
-}
-
 .tarjmod {
-    width: 280px;
     transform: perspective(750px) translate3d(0px, 0px, -250px) rotateX(27deg) scale(0.9, 0.9);
-    border-radius: 20px;
-    border: 5px solid #e6e6e6;
     box-shadow: 0 70px 40px -20px rgba(0, 0, 0, 0.2);
     transition: 0.4s ease-in-out transform;
 }
-
-.tarjmod:hover {
-    transform: translate3d(0px, 0px, -250px);
-}
+.tarjmod:hover {transform: translate3d(0px, 0px, -250px);}
 
 /* DIV NOTICIAS */
 
-.noticias div h2 {
-    border-left: solid 5px rgb(224, 56, 0);
-    padding-left: 0.5em;
-    font-size: 25px;
-    color: wheat;
-}
-
-.noticias div h3 {
-    background: #8AF;
-    font-family: 'letra1';
-    text-align: center;
-    margin: 0;
-    padding: 0.5em;
-    display: block;
-    font-size: 1.17em;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-}
-
-.news {
-    margin-bottom: 8em;
-}
-
+.noticias div h2 {border-left: solid 5px rgb(224, 56, 0);color: wheat;}
+.noticias div h3 {background: #8AF;font-family: 'letra1';}
 .news img {
     margin: 0.2em 0.5em 0.2em 0;
-    float: left;
-    border-radius: 5px;
     max-width: 70%;
-    border: 5px solid #e6e6e6;
     transform:
         perspective(750px) translate3d(0px, 0px, -250px) rotateX(27deg) scale(0.9, 0.9);
     box-shadow: 0 70px 40px -20px rgba(0, 0, 0, 0.2);
     transition: 0.4s ease-in-out transform;
 }
-
-.news img:hover {
-    transform: translate3d(0px, 0px, -250px);
-}
-
-.date {
-    color: white;
-    font-family: 'letra1';
-    float: right;
-    padding: 10px;
-}
-
-.news p {
-    color: white;
-    margin: 50px;
-    text-align: left;
-    font-family: 'letra1';
-}
+.news img:hover {transform: translate3d(0px, 0px, -250px);}
+.date {font-family: 'letra1';float: right;}
+.news p {font-family: 'letra1';}
 
 /* ASIDE */
 
-aside {
-    display: block;
-}
-
-aside .perfil {
-    background: linear-gradient(70deg, rgb(183, 97, 179), rgb(217, 117, 35));
-}
-
-.perfil {
-    display: flex;
-    padding: 15px;
-}
-
-aside .perfil img {
-    width: 100px;
-    height: 100px;
-}
-
-aside .perfil h3 {
-    padding: 15px;
-    font-family: 'anime';
-    text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff;
-}
-
-.instagram {
-    display: flex;
-    padding: 15px;
-}
-
-aside .instagram {
-    background: linear-gradient(170deg, rgb(177, 183, 97), rgb(147, 241, 96));
-}
-
-aside .instagram img {
-    width: 100px;
-    height: 100px;
-}
-
-aside .instagram h3 {
-    padding: 15px;
-    font-family: 'anime';
-    text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff;
-}
-
-.facebook {
-    display: flex;
-    padding: 15px;
-}
-
-aside .facebook {
-    background: linear-gradient(220deg, rgb(83, 143, 241), rgb(222, 78, 121));
-}
-
-aside .facebook img {
-    width: 100px;
-    height: 100px;
-}
-
-aside .facebook h3 {
-    padding: 15px;
-    font-family: 'anime';
-    text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff;
-}
-
-.youtube {
-    display: flex;
-    padding: 15px;
-}
-
-aside .youtube {
-    background: linear-gradient(270deg, rgb(136, 237, 121), rgb(255, 75, 90));
-}
-
-aside .youtube img {
-    width: 100px;
-    height: 100px;
-}
-
-aside .youtube h3 {
-    padding: 15px;
-    font-family: 'anime';
-    text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff;
-}
-
-.fanart {
-    display: flex;
-    padding: 15px;
-}
-
-aside .fanart {
-    background: linear-gradient(360deg, rgb(218, 237, 121), rgb(255, 174, 75));
-}
-
-aside .fanart img {
-    width: 100px;
-    height: 100px;
-}
-
-aside .fanart h3 {
-    padding: 15px;
-    font-family: 'anime';
-    text-shadow: 0 0 1px rgb(255, 255, 255), 0 0 3px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff;
-}
-.twitch {
-    display: flex;
-    padding: 15px;
-}
-aside .twitch {
-    background: linear-gradient(270deg, rgb(218, 237, 121), rgb(162, 17, 182));
-}
-
-aside .twitch img {
-    width: 100px;
-    height: 100px;
-}
-
-aside .twitch h3 {
-    padding: 15px;
-    font-family: 'anime';
-    text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff;
-}
+aside .redessociales h1 { font-family: 'anime';text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff;}
+aside .perfil h3 { font-family: 'anime';text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff;}
+aside .instagram h3 { font-family: 'anime';text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff;}
+aside .facebook h3 { font-family: 'anime';text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff;}
+aside .youtube h3 { font-family: 'anime';text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff;}
+aside .fanmanga h3 { font-family: 'anime';text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff;}
+aside .twitch h3 { font-family: 'anime';text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff;}
+aside .redessociales{background: linear-gradient(70deg, rgb(78, 71, 163), rgb(35, 184, 217));}
+aside .perfil {background: linear-gradient(70deg, rgb(183, 97, 179), rgb(217, 117, 35));}
+aside .instagram {background: linear-gradient(170deg, rgb(177, 183, 97), rgb(200, 39, 221));}
+aside .facebook {background: linear-gradient(220deg, rgb(83, 143, 241), rgb(222, 78, 121));}
+aside .youtube {background: linear-gradient(270deg, rgb(136, 237, 121), rgb(255, 75, 90));}
+aside .fanmanga {background: linear-gradient(360deg, rgb(218, 237, 121), rgb(255, 174, 75));}
+aside .twitch {background: linear-gradient(270deg, rgb(218, 237, 121), rgb(162, 17, 182));}
+aside .perfil p{font-family: 'letra1';}
+aside .instagram p{font-family: 'letra1';}
+aside .facebook p{font-family: 'letra1';}
+aside .youtube p{font-family: 'letra1';}
+aside .fanmanga p{font-family: 'letra1';}
+aside .twitch p{font-family: 'letra1';}
 
 /* FOOTER */
 
-#footer {
-    background-color: rgba(43, 43, 43, 0.374);
-    grid-area: footer;
-}
+#footer {background-color: rgba(43, 43, 43, 0.374);grid-area: footer;}
 #footer div h2{font-family: 'anime';}
 #footer div p{font-family: 'letra1';}
 #footer div ul li{font-family: 'letra1';}
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {}
+@media only screen and (max-width: 1200px) {
+#card div h5{font-size: 17px;}
+#card div p{font-size: 14px;}
+.perfil img{padding: 50px;}
+.perfil div h3{font-size: 25px;}
+.perfil div p{font-size: 14px;}
+.instagram img{padding: 50px;}
+.instagram div h3{font-size: 25px;}
+.instagram div p{font-size: 14px;}
+.facebook img{padding: 50px;}
+.facebook div h3{font-size: 25px;}
+.facebook div p{font-size: 14px;}
+.youtube img{padding: 50px;}
+.youtube div h3{font-size: 25px;}
+.youtube div p{font-size: 14px;}
+.fanmanga img{padding: 50px;}
+.fanmanga div h3{font-size: 25px;}
+.fanmanga div p{font-size: 14px;}
+.twitch img{padding: 50px;}
+.twitch div h3{font-size: 25px;}
+.twitch div p{font-size: 14px;}
+}
+@media only screen and (max-width: 992px){
+header nav div a h1{font-size: 30px !important;}
+#card div h5{font-size: 13px;}
+#card div p{font-size: 11px;}
+.perfil img{padding: 0;}
+.perfil div{padding: 0;padding-left: 0 !important;}
+.perfil div h3{margin: 0;font-size: 19px;}
+.perfil div p{font-size: 12px;}
+.instagram img{padding: 80px;}
+.instagram div{padding-left: 0 !important;}
+.instagram div h3{margin: 0;font-size: 20px;}
+.instagram div p{font-size: 12px;}
+.facebook div{padding:0;padding-left: 0 !important;}
+.facebook img{padding: 80px;}
+.facebook div h3{margin: 0;font-size: 20px;}
+.facebook div p{font-size: 12px;}
+.youtube div{padding:0;padding-left: 0 !important;}
+.youtube img{padding: 80px;}
+.youtube div h3{margin: 0;font-size: 20px;}
+.youtube div p{font-size: 12px;}
+.fanmanga div{padding:0;padding-left: 0 !important;}
+.fanmanga img{padding: 80px;}
+.fanmanga div h3{margin: 0;font-size: 20px;}
+.fanmanga div p{font-size: 12px;}
+.twitch div{padding:0;padding-left: 0 !important;}
+.twitch img{padding: 80px;}
+.twitch div h3{margin: 0;font-size: 20px;}
+.twitch div p{font-size: 12px;}
+#footer div h2{font-size: 25px;}
+}
+@media only screen and (max-width: 576px){
+    .seccionnuevas .cards-wrapper{padding-left: 0;padding-right: 0;}
+    #card div h5{font-size: 17px;}
     #grilla {
         display: grid;
-        grid-template-rows: .01fr .1fr .1fr .01fr;
+        grid-template-rows: .01fr .01fr .5fr .5fr;
         grid-template-columns: 1fr;
         grid-template-areas: "header"
             "portada"
             "main"
+            "main"
             "footer";
     }
-
     #principal {
         grid-area: main;
         display: grid;
-        grid-template-rows: .1fr .1fr .1fr;
+        grid-template-rows: .1fr 1fr .1fr .1fr;
         grid-template-columns: 1fr;
         grid-template-areas: "seccionnuevas"
             "aside"
             "secmods"
             "noticias";
     }
-
-    nav ul li a {
-        padding-right: 20px;
+    .row{margin-left: 0 !important;margin-right: 0 !important;}
+    .perfil div h3{font-size: 25px;}
+    .perfil div p{font-size: 17px;}
+    .instagram img{padding: 0;}
+    .instagram div h3{font-size: 25px;}
+    .instagram div p{font-size: 17px;}
+    .facebook img{padding: 0;}
+    .facebook div h3{font-size: 25px;}
+    .facebook div p{font-size: 17px;}
+    .youtube img{padding: 0;}
+    .youtube div h3{font-size: 25px;}
+    .youtube div p{font-size: 17px;}
+    .fanmanga img{padding: 0;}
+    .fanmanga div h3{font-size: 25px;}
+    .fanmanga div p{font-size: 17px;}
+    .twitch img{padding: 0;}
+    .twitch div h3{font-size: 25px;}
+    .twitch div p{font-size: 17px;}
+    .secmods{margin-top: 25px;}
+    #footer{justify-content: flex-end !important;}
+    #footer div{width: 30.6%;}
+    #footer div h2{
+        font-size: 15px;
     }
-
-    .portada {
-        grid-area: portada;
-    }
-
-    .more {
-        margin-left: 240px;
-    }
-
-    .noticias {
-        margin-top: 10px;
-        margin-left: 50px;
-        margin-right: 50px;
-        margin-bottom: 510px;
-        background-color: rgb(46, 47, 54);
-        border-radius: 5px;
-        border: 5px solid white;
-        padding: 50px;
-        grid-area: noticias;
-    }
-
-    aside {
-        margin-bottom: 100em;
+    #footer div p{
+        font-size: 13px;
     }
 }
 
-@media only screen and (max-width: 500px) {
-    #principal {
-        grid-area: main;
-        display: grid;
-        grid-template-rows: .1fr .1fr .1fr 1fr;
-        grid-template-columns: 1fr;
-        grid-template-areas: "seccionnuevas"
-            "aside"
-            "secmods"
-            "noticias";
-    }
-    .seccionnuevas{
-        grid-area: seccionnuevas;
-    }
-    #card:not(:first-child){
-        display: none;
-    }
-    .secmods {
-        margin-top: 5px;
-        margin-left: 10px;
-        margin-right: 10px;
-        margin-bottom: 200px;
-        border: 3px solid white;
-        padding: 10px;
-    }
-
-    .secmods div h3 {
-        border-left: solid 5px rgb(224, 56, 0);
-        padding-left: 0.5em;
-        font-size: 15px;
-        color: wheat;
-    }
-
-    .more {
-        margin-left: 50px;
-        padding: 5px;
-        font-size: 8px;
-    }
-
-    .tarjmod {
-        width: 150px;
-        border: 3px solid #e6e6e6;
-    }
-
-    .noticias {
-        margin-top: 5px;
-        margin-left: 10px;
-        margin-right: 10px;
-        margin-bottom: 710px;
-        background-color: rgb(46, 47, 54);
-        border-radius: 5px;
-        border: 3px solid white;
-        padding: 10px;
-        grid-area: noticias;
-    }
-
-    .noticias div h2 {
-        border-left: solid 3px rgb(224, 56, 0);
-        font-size: 15px;
-    }
-
-    .noticias div h3 {
-        font-size: 0.7em;
-    }
-
-    .news {
-        margin-bottom: 8em;
-    }
-
-    .news img {
-        margin: 0.2em 0.5em 0.3em 0;
-        max-width: 90%;
-    }
-
-    .date {
-        font-size: 10px;
-    }
-
-    .news p {
-        margin: 4px;
-        font-size: 20px;
-    }
-
-    aside {
-        margin-top: 5px;
-        margin-left: 50px;
-        margin-bottom: 88em;
-        border: 3px solid white;
-        grid-area: aside;
-    }
-
-    .perfil {
-        display: flex;
-        padding: 10px;
-    }
-
-    aside .perfil img {
-        width: 50px;
-        height: 50px;
-    }
-
-    aside .perfil h3 {
-        padding: 2px;
-        padding-left: 15px;
-        font-size: 13px;
-    }
-
-    .instagram {
-        display: flex;
-        padding: 10px;
-    }
-
-    aside .instagram img {
-        width: 50px;
-        height: 50px;
-    }
-
-    aside .instagram h3 {
-        padding: 2px;
-        padding-left: 15px;
-        font-size: 13px;
-    }
-
-    .facebook {
-        display: flex;
-        padding: 10px;
-    }
-
-    aside .facebook img {
-        width: 50px;
-        height: 50px;
-    }
-
-    aside .facebook h3 {
-        padding: 2px;
-        padding-left: 15px;
-        font-size: 13px;
-    }
-
-    .youtube {
-        display: flex;
-        padding: 10px;
-    }
-
-    aside .youtube img {
-        width: 50px;
-        height: 50px;
-    }
-
-    aside .youtube h3 {
-        padding: 2px;
-        padding-left: 15px;
-        font-size: 13px;
-    }
-
-    .fanart {
-        display: flex;
-        padding: 10px;
-    }
-
-    aside .fanart img {
-        width: 50px;
-        height: 50px;
-    }
-
-    aside .fanart h3 {
-        padding: 2px;
-        padding-left: 15px;
-        font-size: 13px;
-    }
-    .twitch {
-        display: flex;
-        padding: 10px;
-    }
-    aside .twitch{
-        display: flex;
-        padding: 10px;
-    }
-    aside .twitch img {
-        width: 50px;
-        height: 50px;
-    }
-    aside .twitch h3 {
-        padding: 2px;
-        padding-left: 15px;
-        font-size: 13px;
-    }
-
-    #footer {
-        background-color: rgba(43, 43, 43, 0.374);
-        grid-area: footer;
-        display: flex;
-    }
-
-    .caja1 h2 {
-        font-family: 'anime';
-        text-align: center;
-        color: white;
-        font-size: 15px;
-    }
-
-    .caja1 p {
-        text-align: center;
-        color: white;
-        font-size: 10px;
-    }
-
-    .caja2 h2 {
-        font-size: 15px;
-    }
-
-    .caja2 ul {
-        margin-right: 35px;
-        font-size: 10px;
-    }
-
-    .caja3 h2 {
-        font-size: 15px;
-    }
-
-    .caja3 ul {
-        margin-right: 35px;
-        font-size: 10px;
-    }
-}
 
 /* ---------------NOTICIASNUEVAS-------------- */
 
