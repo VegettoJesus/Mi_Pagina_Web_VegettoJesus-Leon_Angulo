@@ -325,10 +325,7 @@ header nav div a h1{font-size: 30px !important;}
         "carta7"
         "carta8";
 }
-.notititulo {
-    color: wheat;
-    grid-area: titulo;
-}
+.notititulo {color: wheat;grid-area: titulo;}
 .aviso div h3 {
     background: #8AF;
     font-family: 'letra1';
@@ -348,14 +345,8 @@ header nav div a h1{font-size: 30px !important;}
     float: left;
     max-width: 35%;
 }
-.datedia {
-    font-family: 'letra1';
-    float: right;
-}
-.cartanoticia p {
-    text-align: left;
-    font-family: 'letra1';
-}
+.datedia {font-family: 'letra1';float: right;}
+.cartanoticia p {text-align: left;font-family: 'letra1';}
 .cartanoticia2 {
     padding-left: 150px;
     padding-right: 150px;
@@ -366,10 +357,7 @@ header nav div a h1{font-size: 30px !important;}
     float: left;
     max-width: 35%;
 }
-.cartanoticia2 p {
-    text-align: left;
-    font-family: 'letra1';
-}
+.cartanoticia2 p {text-align: left;font-family: 'letra1';}
 .cartanoticia3 {
     padding-left: 150px;
     padding-right: 150px;
@@ -380,10 +368,7 @@ header nav div a h1{font-size: 30px !important;}
     float: left;
     max-width: 35%;
 }
-.cartanoticia3 p {
-    text-align: left;
-    font-family: 'letra1';
-}
+.cartanoticia3 p {text-align: left;font-family: 'letra1';}
 .cartanoticia4 {
     padding-left: 150px;
     padding-right: 150px;
@@ -394,10 +379,7 @@ header nav div a h1{font-size: 30px !important;}
     float: left;
     max-width: 35%;
 }
-.cartanoticia4 p {
-    text-align: left;
-    font-family: 'letra1';
-}
+.cartanoticia4 p {text-align: left;font-family: 'letra1';}
 .cartanoticia5 {
     padding-left: 150px;
     padding-right: 150px;
@@ -408,10 +390,7 @@ header nav div a h1{font-size: 30px !important;}
     float: left;
     max-width: 35%;
 }
-.cartanoticia5 p {
-    text-align: left;
-    font-family: 'letra1';
-}
+.cartanoticia5 p {text-align: left;font-family: 'letra1';}
 .cartanoticia6 {
     padding-left: 150px;
     padding-right: 150px;
@@ -422,10 +401,7 @@ header nav div a h1{font-size: 30px !important;}
     float: left;
     max-width: 35%;
 }
-.cartanoticia6 p {
-    text-align: left;
-    font-family: 'letra1';
-}
+.cartanoticia6 p {text-align: left;font-family: 'letra1';}
 .cartanoticia7 {
     padding-left: 150px;
     padding-right: 150px;
@@ -436,10 +412,7 @@ header nav div a h1{font-size: 30px !important;}
     float: left;
     max-width: 35%;
 }
-.cartanoticia7 p {
-    text-align: left;
-    font-family: 'letra1';
-}
+.cartanoticia7 p {text-align: left;font-family: 'letra1';}
 .cartanoticia8 {
     padding-left: 150px;
     padding-right: 150px;
@@ -450,231 +423,17 @@ header nav div a h1{font-size: 30px !important;}
     float: left;
     max-width: 35%;
 }
-.cartanoticia8 p {
-    text-align: left;
-    font-family: 'letra1';
+.cartanoticia8 p {text-align: left;font-family: 'letra1';}
+@media only screen and (max-width: 992px) {
+    .aviso{margin-left: 50px; margin-right: 50px}
+    .cartanoticia, .cartanoticia2, .cartanoticia3, .cartanoticia4, .cartanoticia5,
+    .cartanoticia6, .cartanoticia7, .cartanoticia8{padding-left: 70px;padding-right: 70px;}
 }
-@media only screen and (max-width: 1024px) {
-    .cartanoticia {
-        padding-left: 100px;
-        padding-right: 100px;
-        grid-area: "carta1";
-    }
-
-    .cartanoticia p {
-        font-size: 15px;
-    }
-
-    .cartanoticia2 {
-        padding-left: 100px;
-        padding-right: 100px;
-        grid-area: "carta2";
-    }
-
-    .cartanoticia2 p {
-        font-size: 15px;
-    }
-
-    .cartanoticia3 {
-        padding-left: 100px;
-        padding-right: 100px;
-        grid-area: "carta3";
-    }
-
-    .cartanoticia3 p {
-        font-size: 15px;
-    }
-
-    .cartanoticia4 {
-        padding-left: 100px;
-        padding-right: 100px;
-        grid-area: "carta4";
-    }
-
-    .cartanoticia4 p {
-        font-size: 15px;
-    }
-
-    .cartanoticia5 {
-        padding-left: 100px;
-        padding-right: 100px;
-        grid-area: "carta5";
-    }
-
-    .cartanoticia5 p {
-        font-size: 15px;
-    }
-
-    .cartanoticia6 {
-        padding-left: 100px;
-        padding-right: 100px;
-        grid-area: "carta6";
-    }
-
-    .cartanoticia6 p {
-        font-size: 15px;
-    }
-
-    .cartanoticia7 {
-        padding-left: 100px;
-        padding-right: 100px;
-        grid-area: "carta7";
-    }
-
-    .cartanoticia7 p {
-        font-size: 15px;
-    }
-
-    .cartanoticia8 {
-        padding-left: 100px;
-        padding-right: 100px;
-        grid-area: "carta8";
-    }
-
-    .cartanoticia8 p {
-        font-size: 15px;
-    }
-}
-
-@media only screen and (max-width: 500px) {
-    .aviso {
-        margin-top: 10px;
-        margin-left: 10px;
-        margin-right: 10px;
-        margin-bottom: 50px;
-        background-color: rgb(46, 47, 54);
-        border-radius: 5px;
-        border: 3px solid white;
-        grid-area: aviso;
-        display: grid;
-        grid-template-rows: .2fr .5fr .5fr .5fr .5fr .5fr .5fr .5fr .5fr;
-        grid-template-columns: 1fr;
-        grid-template-areas: "titulo"
-            "carta1"
-            "carta2"
-            "carta3"
-            "carta4"
-            "carta5"
-            "cart6"
-            "carta7"
-            "carta8";
-    }
-
-    .cartanoticia {
-        padding-left: 50px;
-        padding-right: 50px;
-        grid-area: "carta1";
-    }
-
-    .cartanoticia img {
-        border: 3px solid #e6e6e6;
-    }
-
-    .datedia {
-        margin-top: 22px;
-    }
-
-    .cartanoticia p {
-        font-size: 10px;
-    }
-
-    .cartanoticia2 {
-        padding-left: 50px;
-        padding-right: 50px;
-        grid-area: "carta2";
-    }
-
-    .cartanoticia2 img {
-        border: 3px solid #e6e6e6;
-    }
-
-    .cartanoticia2 p {
-        font-size: 10px;
-    }
-
-    .cartanoticia3 {
-        padding-left: 50px;
-        padding-right: 50px;
-        grid-area: "carta3";
-    }
-
-    .cartanoticia3 img {
-        border: 3px solid #e6e6e6;
-    }
-
-    .cartanoticia3 p {
-        font-size: 10px;
-    }
-
-    .cartanoticia4 {
-        padding-left: 50px;
-        padding-right: 50px;
-        grid-area: "carta4";
-    }
-
-    .cartanoticia4 img {
-        border: 3px solid #e6e6e6;
-    }
-
-    .cartanoticia4 p {
-        font-size: 10px;
-    }
-
-    .cartanoticia5 {
-        padding-left: 50px;
-        padding-right: 50px;
-        grid-area: "carta5";
-    }
-
-    .cartanoticia5 img {
-        border: 3px solid #e6e6e6;
-    }
-
-    .cartanoticia5 p {
-        font-size: 10px;
-    }
-
-    .cartanoticia6 {
-        padding-left: 50px;
-        padding-right: 50px;
-        grid-area: "carta6";
-    }
-
-    .cartanoticia6 img {
-        border: 3px solid #e6e6e6;
-    }
-
-    .cartanoticia6 p {
-        font-size: 10px;
-    }
-
-    .cartanoticia7 {
-        padding-left: 50px;
-        padding-right: 50px;
-        grid-area: "carta7";
-    }
-
-    .cartanoticia7 img {
-        border: 3px solid #e6e6e6;
-    }
-
-    .cartanoticia7 p {
-        font-size: 10px;
-    }
-
-    .cartanoticia8 {
-        padding-left: 50px;
-        padding-right: 50px;
-        grid-area: "carta8";
-    }
-
-    .cartanoticia8 img {
-        border: 3px solid #e6e6e6;
-    }
-
-    .cartanoticia8 p {
-        font-size: 10px;
-    }
+@media only screen and (max-width: 576px) {
+    .aviso{margin-left: 20px; margin-right: 20px}
+    .cartanoticia, .cartanoticia2, .cartanoticia3, .cartanoticia4, .cartanoticia5,
+    .cartanoticia6, .cartanoticia7, .cartanoticia8{padding-left: 40px;padding-right: 40px;}
+    #footer div{max-width: 30.4%;}
 }
 
 /* ---------------MODS-------------- */
@@ -714,10 +473,7 @@ header nav div a h1{font-size: 30px !important;}
     background: linear-gradient(180deg, rgba(28, 28, 28, 0.437), rgb(242, 249, 255, 0.56));
     border-radius: 10px;
 }
-.carta:hover {
-    transform: translateY(-15px);
-    box-shadow: 0 12px 16px rgb(0, 0, 0, 0.2);
-}
+.carta:hover {transform: translateY(-15px);box-shadow: 0 12px 16px rgb(0, 0, 0, 0.2);}
 .carta h5 {
     margin-bottom: 10px;
     font-size: 20px;
@@ -750,10 +506,7 @@ header nav div a h1{font-size: 30px !important;}
     border-radius: 10px;
     grid-area: carta2;
 }
-.carta2:hover {
-    transform: translateY(-15px);
-    box-shadow: 0 12px 16px rgb(0, 0, 0, 0.2);
-}
+.carta2:hover {transform: translateY(-15px);box-shadow: 0 12px 16px rgb(0, 0, 0, 0.2);}
 .carta2 h5 {
     margin-bottom: 10px;
     font-size: 20px;
@@ -767,10 +520,7 @@ header nav div a h1{font-size: 30px !important;}
     border-radius: 10px;
     grid-area: carta3;
 }
-.carta3:hover {
-    transform: translateY(-15px);
-    box-shadow: 0 12px 16px rgb(0, 0, 0, 0.2);
-}
+.carta3:hover {transform: translateY(-15px);box-shadow: 0 12px 16px rgb(0, 0, 0, 0.2);}
 .carta3 h5 {
     margin-bottom: 10px;
     font-size: 20px;
@@ -784,10 +534,7 @@ header nav div a h1{font-size: 30px !important;}
     border-radius: 10px;
     grid-area: carta4;
 }
-.carta4:hover {
-    transform: translateY(-15px);
-    box-shadow: 0 12px 16px rgb(0, 0, 0, 0.2);
-}
+.carta4:hover {transform: translateY(-15px);box-shadow: 0 12px 16px rgb(0, 0, 0, 0.2);}
 .carta4 h5 {
     margin-bottom: 10px;
     font-size: 20px;
@@ -801,10 +548,7 @@ header nav div a h1{font-size: 30px !important;}
     border-radius: 10px;
     grid-area: carta5;
 }
-.carta5:hover {
-    transform: translateY(-15px);
-    box-shadow: 0 12px 16px rgb(0, 0, 0, 0.2);
-}
+.carta5:hover {transform: translateY(-15px);box-shadow: 0 12px 16px rgb(0, 0, 0, 0.2);}
 .carta5 h5{
     margin-bottom: 10px;
     font-size: 20px;
@@ -818,10 +562,7 @@ header nav div a h1{font-size: 30px !important;}
     border-radius: 10px;
     grid-area: carta6;
 }
-.carta6:hover {
-    transform: translateY(-15px);
-    box-shadow: 0 12px 16px rgb(0, 0, 0, 0.2);
-}
+.carta6:hover {transform: translateY(-15px);box-shadow: 0 12px 16px rgb(0, 0, 0, 0.2);}
 .carta6 h5 {
     margin-bottom: 10px;
     font-size: 20px;
@@ -835,10 +576,7 @@ header nav div a h1{font-size: 30px !important;}
     border-radius: 10px;
     grid-area: carta7;
 }
-.carta7:hover {
-    transform: translateY(-15px);
-    box-shadow: 0 12px 16px rgb(0, 0, 0, 0.2);
-}
+.carta7:hover {transform: translateY(-15px);box-shadow: 0 12px 16px rgb(0, 0, 0, 0.2);}
 .carta7 h5 {
     margin-bottom: 10px;
     font-size: 20px;
@@ -852,10 +590,7 @@ header nav div a h1{font-size: 30px !important;}
     border-radius: 10px;
     grid-area: carta8;
 }
-.carta8:hover {
-    transform: translateY(-15px);
-    box-shadow: 0 12px 16px rgb(0, 0, 0, 0.2);
-}
+.carta8:hover {transform: translateY(-15px);box-shadow: 0 12px 16px rgb(0, 0, 0, 0.2);}
 .carta8 h5 {
     margin-bottom: 10px;
     font-size: 20px;
@@ -869,10 +604,7 @@ header nav div a h1{font-size: 30px !important;}
     border-radius: 10px;
     grid-area: carta9;
 }
-.carta9:hover {
-    transform: translateY(-15px);
-    box-shadow: 0 12px 16px rgb(0, 0, 0, 0.2);
-}
+.carta9:hover {transform: translateY(-15px);box-shadow: 0 12px 16px rgb(0, 0, 0, 0.2);}
 .carta9 h5 {
     margin-bottom: 10px;
     font-size: 20px;
@@ -886,10 +618,7 @@ header nav div a h1{font-size: 30px !important;}
     border-radius: 10px;
     grid-area: carta10;
 }
-.carta10:hover {
-    transform: translateY(-15px);
-    box-shadow: 0 12px 16px rgb(0, 0, 0, 0.2);
-}
+.carta10:hover {transform: translateY(-15px);box-shadow: 0 12px 16px rgb(0, 0, 0, 0.2);}
 .carta10 h5 {
     margin-bottom: 10px;
     font-size: 20px;
@@ -903,10 +632,7 @@ header nav div a h1{font-size: 30px !important;}
     border-radius: 10px;
     grid-area: carta11;
 }
-.carta11:hover {
-    transform: translateY(-15px);
-    box-shadow: 0 12px 16px rgb(0, 0, 0, 0.2);
-}
+.carta11:hover {transform: translateY(-15px);box-shadow: 0 12px 16px rgb(0, 0, 0, 0.2);}
 .carta11 h5 {
     margin-bottom: 10px;
     font-size: 20px;
@@ -920,10 +646,7 @@ header nav div a h1{font-size: 30px !important;}
     border-radius: 10px;
     grid-area: carta12;
 }
-.carta12:hover {
-    transform: translateY(-15px);
-    box-shadow: 0 12px 16px rgb(0, 0, 0, 0.2);
-}
+.carta12:hover {transform: translateY(-15px);box-shadow: 0 12px 16px rgb(0, 0, 0, 0.2);}
 .carta12 h5 {
     margin-bottom: 10px;
     font-size: 20px;
@@ -937,10 +660,7 @@ header nav div a h1{font-size: 30px !important;}
     border-radius: 10px;
     grid-area: carta13;
 }
-.carta13:hover {
-    transform: translateY(-15px);
-    box-shadow: 0 12px 16px rgb(0, 0, 0, 0.2);
-}
+.carta13:hover {transform: translateY(-15px);box-shadow: 0 12px 16px rgb(0, 0, 0, 0.2);}
 .carta13 h5 {
     margin-bottom: 10px;
     font-size: 20px;
@@ -954,11 +674,7 @@ header nav div a h1{font-size: 30px !important;}
     border-radius: 10px;
     grid-area: carta14;
 }
-.carta14:hover {
-    transform: translateY(-15px);
-    box-shadow: 0 12px 16px rgb(0, 0, 0, 0.2);
-}
-
+.carta14:hover {transform: translateY(-15px);box-shadow: 0 12px 16px rgb(0, 0, 0, 0.2);}
 .carta14 h5 {
     margin-bottom: 10px;
     font-size: 20px;
@@ -972,10 +688,7 @@ header nav div a h1{font-size: 30px !important;}
     border-radius: 10px;
     grid-area: carta15;
 }
-.carta15:hover {
-    transform: translateY(-15px);
-    box-shadow: 0 12px 16px rgb(0, 0, 0, 0.2);
-}
+.carta15:hover {transform: translateY(-15px);box-shadow: 0 12px 16px rgb(0, 0, 0, 0.2);}
 .carta15 h5 {
     margin-bottom: 10px;
     font-size: 20px;
@@ -996,100 +709,25 @@ header nav div a h1{font-size: 30px !important;}
     }
 }
 @media only screen and (max-width: 500px) {
-    .listamods .titmods {
-        font-size: 12px;
-    }
-
-    .info {
-        padding-inline: 15px;
-    }
-
-    .carta h4 {
-        padding-bottom: 5px;
-        font-size: 10px;
-    }
-
-    .button_mediafire {
-        border: 1px solid white;
-        padding: 3px;
-        font-size: 6px;
-    }
-
-    .button_mega {
-        border: 1px solid white;
-        padding: 3px;
-        font-size: 6px;
-    }
-
-    .carta2 h4 {
-        padding-bottom: 5px;
-        font-size: 8px;
-    }
-
-    .carta3 h4 {
-        padding-bottom: 5px;
-        font-size: 8px;
-    }
-
-    .carta4 h4 {
-        padding-bottom: 5px;
-        font-size: 8px;
-    }
-
-    .carta5 h4 {
-        padding-bottom: 5px;
-        font-size: 8px;
-    }
-
-    .carta6 h4 {
-        padding-bottom: 5px;
-        font-size: 8px;
-    }
-
-    .carta7 h4 {
-        padding-bottom: 5px;
-        font-size: 10px;
-    }
-
-    .carta8 h4 {
-        padding-bottom: 5px;
-        font-size: 8px;
-    }
-
-    .carta9 h4 {
-        padding-bottom: 5px;
-        font-size: 8px;
-    }
-
-    .carta10 h4 {
-        padding-bottom: 5px;
-        font-size: 8px;
-    }
-
-    .carta11 h4 {
-        padding-bottom: 5px;
-        font-size: 8px;
-    }
-
-    .carta12 h4 {
-        padding-bottom: 5px;
-        font-size: 8px;
-    }
-
-    .carta13 h4 {
-        padding-bottom: 5px;
-        font-size: 8px;
-    }
-
-    .carta14 h4 {
-        padding-bottom: 5px;
-        font-size: 8px;
-    }
-
-    .carta15 h4 {
-        padding-bottom: 5px;
-        font-size: 8px;
-    }
+    .listamods .titmods {font-size: 12px;}
+    .info {padding-inline: 15px;}
+    .carta h4 {padding-bottom: 5px;font-size: 10px;}
+    .button_mediafire {border: 1px solid white;padding: 3px;font-size: 6px;}
+    .button_mega {border: 1px solid white;padding: 3px;font-size: 6px;}
+    .carta2 h4 {padding-bottom: 5px;font-size: 8px;}
+    .carta3 h4 {padding-bottom: 5px;font-size: 8px;}
+    .carta4 h4 {padding-bottom: 5px;font-size: 8px;}
+    .carta5 h4 {padding-bottom: 5px;font-size: 8px;}
+    .carta6 h4 {padding-bottom: 5px;font-size: 8px;}
+    .carta7 h4 {padding-bottom: 5px;font-size: 10px;}
+    .carta8 h4 {padding-bottom: 5px;font-size: 8px;}
+    .carta9 h4 {padding-bottom: 5px;font-size: 8px;}
+    .carta10 h4 {padding-bottom: 5px;font-size: 8px;}
+    .carta11 h4 {padding-bottom: 5px;font-size: 8px;}
+    .carta12 h4 {padding-bottom: 5px;font-size: 8px;}
+    .carta13 h4 {padding-bottom: 5px;font-size: 8px;}
+    .carta14 h4 {padding-bottom: 5px;font-size: 8px;}
+    .carta15 h4 {padding-bottom: 5px;font-size: 8px;}
 }
 
 /* ---------------VIDEOS-------------- */
@@ -1108,17 +746,9 @@ header nav div a h1{font-size: 30px !important;}
     width: calc(100%/4);
     background: linear-gradient(260deg, rgba(58, 97, 95, 0.437), rgba(107, 16, 115, 0.56));
 }
-#carta-youtube div h5{
-    font-family: 'anime';
-    text-shadow: 0 0 1px rgb(255, 255, 255), 0 0 3px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff;
-}
-#carta-youtube div a{
-    text-decoration: none;
-
-}
-.seccionnuevas div h3{
-    display: inline-block;
-}
+#carta-youtube div h5{font-family: 'anime';text-shadow: 0 0 1px rgb(255, 255, 255), 0 0 3px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff;}
+#carta-youtube div a{text-decoration: none;}
+.seccionnuevas div h3{display: inline-block;}
 .maslista {
     margin-top: 10px;
     margin-left: 800px;
@@ -1146,16 +776,22 @@ header nav div a h1{font-size: 30px !important;}
             "footer";
     }
 }
-@media only screen and (max-width: 500px) {
-    #grilla4 {
-        display: grid;
-        grid-template-rows: .01fr .1fr 1fr .1fr;
-        grid-template-columns: 1fr;
-        grid-template-areas: "header"
-            "portada"
-            "listvideos"
-            "footer";
-    }
+@media only screen and (max-width: 1200px) {
+    .maslista{margin-left: 500px;}
+}
+@media only screen and (max-width: 992px) {
+    .maslista{margin-left: 300px;}
+    .card-body h5{font-size: 15px;}
+}
+@media only screen and (max-width: 768px){
+    .maslista{margin-left: 100px;}
+    .card-body h5{font-size: 12px;}
+    .seccionnuevas .cards-wrapper{padding-left: 50px;padding-right: 50px;}
+}
+@media only screen and (max-width: 576px) {
+    .card-body h5{font-size: 8px;}
+    .seccionnuevas .cards-wrapper{padding-left: 20px;padding-right: 20px;}
+    .maslista{margin-left: 0px;}
 }
 /* ---------------CONTACTO-------------- */
 #grilla5 {
@@ -1166,9 +802,7 @@ header nav div a h1{font-size: 30px !important;}
         "conoceme"
         "footer";
 }
-.conoceme {
-    grid-area: conoceme;
-}
+.conoceme {grid-area: conoceme;}
 
 .sobremi {
     background-image: url(../images/portada2.jpg);
@@ -1190,13 +824,9 @@ header nav div a h1{font-size: 30px !important;}
     margin-top: 50px;
     padding: 50px;
 }
-.clearfix img{
-    width: 400px;
-    border: 5px solid white;
+.clearfix img{width: 400px;border: 5px solid white;
 }
-.clearfix p{
-    font-family: 'letra1';
-}
+.clearfix p{font-family: 'letra1';}
 @keyframes movimiento {
     from {
         background-position: bottom left;
@@ -1206,10 +836,7 @@ header nav div a h1{font-size: 30px !important;}
         background-position: top right;
     }
 }
-.sobremi div {
-    background-color: rgba(255, 255, 255, 0.522);
-}
-
+.sobremi div {background-color: rgba(255, 255, 255, 0.522);}
 .sobremi div h2 {
     padding-inline: 15px;
     text-align: center;
@@ -1218,7 +845,6 @@ header nav div a h1{font-size: 30px !important;}
     color: #718a2c;
     text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff;
 }
-
 .sobremi div p {
     color: rgb(0, 0, 0);
     text-align: center;
@@ -1231,18 +857,15 @@ header nav div a h1{font-size: 30px !important;}
     border-radius: 5%;
     background: linear-gradient(180deg, rgba(28, 28, 28), rgba(46, 46, 46));
 }
-.container div div h1{
-    text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff;
-}
-.container div img{
-    border-radius: 20%;
-}
-@media only screen and (max-width: 1024px) {}
-
-@media only screen and (max-width: 500px) {
+.container div div h1{text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff;}
+.container div img{border-radius: 20%;}
+@media only screen and (max-width: 576px) {
     .sobremi {
         height: 70vh;
         padding-inline: 50px;
         animation: movimiento 10s infinite linear alternate;
     }
+    .sobremi div p {font-size: 15px;}
+    .image-face{width: 500px;}
+    .image-youtu{width: 500px;}
 }
