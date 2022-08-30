@@ -1,0 +1,253 @@
+.aviso {
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: rgb(46, 47, 54);
+    grid-area: aviso;
+    display: grid;
+    grid-template-rows: .2fr .5fr .5fr .5fr .5fr .5fr .5fr .5fr .5fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: "titulo"
+        "carta1"
+        "carta2"
+        "carta3"
+        "carta4"
+        "carta5"
+        "cart6"
+        "carta7"
+        "carta8";
+}
+.aviso{
+    .notititulo{
+        border-left: solid 5px $color-12;
+        padding-left: 0.7em;
+        color: $color-13;
+        grid-area: titulo;
+    }
+    .cartanoticia{
+        padding-left: 150px;
+        padding-right: 150px;
+        grid-area: "carta1";
+        .datedia{
+            font-family: map-get($diccionario-letras, "letra-2");
+            float: right;
+        }
+        h3{
+            background: $color-11;
+            font-family: map-get($diccionario-letras, "letra-2");
+            text-align: center;
+            padding: 0.5em;
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+        }
+        .imagennoticia{
+            margin: 0.2em 0.5em 0.2em 0;
+            float: left;
+            max-width: 35%;
+        }
+        p{
+            text-align: left;
+            font-family: map-get($diccionario-letras, "letra-2");
+        }
+    }
+    .cartanoticia2{
+        padding-left: 150px;
+        padding-right: 150px;
+        grid-area: "carta2";
+        .datedia{
+            font-family: map-get($diccionario-letras, "letra-2");
+            float: right;
+        }
+        h3{
+            background: $color-11;
+            font-family: map-get($diccionario-letras, "letra-2");
+            text-align: center;
+            padding: 0.5em;
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+        }
+        .imagennoticia{       
+            margin: 0.2em 0.5em 0.2em 0;
+            float: left;
+            max-width: 35%;
+        }
+        p{
+            text-align: left;
+            font-family: map-get($diccionario-letras, "letra-2");
+        }
+    }
+    .cartanoticia3{
+        padding-left: 150px;
+        padding-right: 150px;
+        grid-area: "carta3";
+        .datedia{
+            font-family: map-get($diccionario-letras, "letra-2");
+            float: right;
+        }
+        h3{
+            background: $color-11;
+            font-family: map-get($diccionario-letras, "letra-2");
+            text-align: center;
+            padding: 0.5em;
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+        }
+        .imagennoticia{
+            margin: 0.2em 0.5em 0.2em 0;
+            float: left;
+            max-width: 35%;
+        }
+        p{
+            text-align: left;
+            font-family: map-get($diccionario-letras, "letra-2");
+        }
+    }
+    .cartanoticia4{
+        padding-left: 150px;
+        padding-right: 150px;
+        grid-area: "carta4";
+        .datedia{
+            font-family: map-get($diccionario-letras, "letra-2");
+            float: right;
+        }
+        h3{
+            background: $color-11;
+            font-family: map-get($diccionario-letras, "letra-2");
+            text-align: center;
+            padding: 0.5em;
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+        }
+        .imagennoticia{
+            margin: 0.2em 0.5em 0.2em 0;
+            float: left;
+            max-width: 35%;
+        }
+        p{
+            text-align: left;
+            font-family: map-get($diccionario-letras, "letra-2");
+        }
+    }
+    .cartanoticia5{
+        padding-left: 150px;
+        padding-right: 150px;
+        grid-area: "carta5";
+        .datedia{
+            font-family: map-get($diccionario-letras, "letra-2");
+            float: right;
+        }
+        h3{
+            background: $color-11;
+            font-family: map-get($diccionario-letras, "letra-2");
+            text-align: center;
+            padding: 0.5em;
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+        }
+        .imagennoticia{
+            margin: 0.2em 0.5em 0.2em 0;
+            float: left;
+            max-width: 35%;
+        }
+        p{
+            text-align: left;
+            font-family: map-get($diccionario-letras, "letra-2");
+        }
+    }
+    .cartanoticia6{
+        padding-left: 150px;
+        padding-right: 150px;
+        grid-area: "carta6";
+        .datedia{
+            font-family: map-get($diccionario-letras, "letra-2");
+            float: right;
+        }
+        h3{
+            background: $color-11;
+            font-family: map-get($diccionario-letras, "letra-2");
+            text-align: center;
+            padding: 0.5em;
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+        }
+        .imagennoticia{
+            margin: 0.2em 0.5em 0.2em 0;
+            float: left;
+            max-width: 35%;
+        }
+        p{
+            text-align: left;
+            font-family: map-get($diccionario-letras, "letra-2");
+        }
+    }
+    .cartanoticia7{
+        padding-left: 150px;
+        padding-right: 150px;
+        grid-area: "carta7";
+        .datedia{
+            font-family: map-get($diccionario-letras, "letra-2");
+            float: right;
+        }
+        h3{
+            background: $color-11;
+            font-family: map-get($diccionario-letras, "letra-2");
+            text-align: center;
+            padding: 0.5em;
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+        }
+        .imagennoticia{
+            margin: 0.2em 0.5em 0.2em 0;
+            float: left;
+            max-width: 35%;
+        }
+        p{
+            text-align: left;
+            font-family: map-get($diccionario-letras, "letra-2");
+        }
+    }
+    .cartanoticia8{
+        padding-left: 150px;
+        padding-right: 150px;
+        grid-area: "carta8";
+        .datedia{
+            font-family: map-get($diccionario-letras, "letra-2");
+            float: right;
+        }
+        h3{
+            background: $color-11;
+            font-family: map-get($diccionario-letras, "letra-2");
+            text-align: center;
+            padding: 0.5em;
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+        }
+        .imagennoticia{
+            margin: 0.2em 0.5em 0.2em 0;
+            float: left;
+            max-width: 35%;
+        }
+        p{
+            text-align: left;
+            font-family: map-get($diccionario-letras, "letra-2");
+        }
+    }
+}
+@media only screen and (max-width: 992px) {
+    .aviso{margin-left: 50px; margin-right: 50px}
+    .cartanoticia, .cartanoticia2, .cartanoticia3, .cartanoticia4, .cartanoticia5,
+    .cartanoticia6, .cartanoticia7, .cartanoticia8{padding-left: 70px;padding-right: 70px;}
+}
+@media only screen and (max-width: 576px) {
+    .aviso{margin-left: 20px; margin-right: 20px}
+    .cartanoticia, .cartanoticia2, .cartanoticia3, .cartanoticia4, .cartanoticia5,
+    .cartanoticia6, .cartanoticia7, .cartanoticia8{padding-left: 40px;padding-right: 40px;}
+    #footer div{max-width: 30.4%;}
+}

@@ -18,23 +18,23 @@ header{
                     margin-top: 10px
                 }
             }
-            button{
-                span{
-
-                }
-            }
-            div{
-                ul{
-                    li{
-                        a{
-                            font-family: map-get($diccionario-letras , "letra1" );
-                            font-size: 30px;
-                        }
+        }
+    }
+    
+}
+header{
+    nav{
+        div{
+            ul{
+                li{
+                    a{
+                        font-family: map-get($diccionario-letras, "letra-2" );
+                        font-size: 30px;
                     }
                 }
             }
         }
     }
-    .nav-link {color: white!important;}
-    .nav-link:hover{color: rgb(234, 255, 0)!important;}
 }
+.nav-link {color: white!important;}
+.nav-link:hover{color: rgb(234, 255, 0)!important;}
