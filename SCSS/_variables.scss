@@ -1,0 +1,8 @@
+@font-face {font-family: "anime";src: url("../assets/fonts/bouncy_2/Bouncy-Thin-PERSONAL_USE_ONLY.otf");}
+@font-face {font-family: "letra1";src: url("../assets/fonts/janda_manatee/JandaManateeSolid.ttf");}
+@font-face {font-family: "letra_2";src: url("../assets/fonts/AG-Stencil/AG-Stencil.ttf");}
+$diccionario-letras:(
+    "letra-1":'anime',
+    "letra-2":'letra1',
+    "letra-3":'letra_2',
+);
