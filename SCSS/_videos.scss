@@ -78,7 +78,16 @@ div{
     .maslista{margin-left: 500px;}
 }
 @media only screen and (max-width: 992px) {
-    .maslista{margin-left: 300px;}
+    .lisvideos div div div .cards-wrapper #carta-youtube{
+        width: 100%;
+    }
+    .card-body h5{
+        font-size: 20px !important;
+    }
+    div .cards-wrapper #carta-youtube{
+        width: 100%;
+    }
+    div .maslista{margin-left: 10px;}
     .card-body h5{font-size: 15px;}
 }
 @media only screen and (max-width: 768px){

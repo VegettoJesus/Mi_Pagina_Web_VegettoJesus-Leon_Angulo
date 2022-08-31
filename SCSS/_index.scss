@@ -283,7 +283,41 @@ aside{
     .twitch div p{font-size: 12px;}
     #footer div h2{font-size: 25px;}
     }
+    @media only screen and (max-width: 500px){
+        .card:not(:first-child){
+            display: none;
+        }
+        #card{
+            width: 100%;
+        }
+        #card div h5{
+            font-size: 33px;
+        }
+        #card div p{
+            font-size: 25px;
+        }
+        .btn-carousel, #button-next2, #button-prev2{
+            width: 20vh;
+            height: 20vh;
+        }
+    }
     @media only screen and (max-width: 576px){
+        .card:not(:first-child){
+            display: none;
+        }
+        #card{
+            width: 100%;
+        }
+        #card div h5{
+            font-size: 30px !important;
+        }
+        #card div p{
+            font-size: 20px !important;
+        }
+        .btn-carousel, #button-next2, #button-prev2{
+            width: 10vh;
+            height: 10vh;
+        }
         .seccionnuevas .cards-wrapper{padding-left: 0;padding-right: 0;}
         #card div h5{font-size: 17px;}
         #grilla {
