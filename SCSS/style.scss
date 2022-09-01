@@ -26,7 +26,7 @@
         "aviso"
         "footer";
 }
-@import './noticiasnuevas';
+@import './_noticiasnuevas';
 #grilla3 {
     background: url(../images/fondo.jpg);
     background-size: 100%;
@@ -38,7 +38,7 @@
         "listamods"
         "footer";
 }
-@import './mods.scss';
+@import './_mods';
 #grilla4 {
     background: url(../images/fondo.jpg);
     background-size: 100%;
@@ -61,4 +61,4 @@
         "conoceme"
         "footer";
 }
-@import './contacto.scss';
+@import './contacto';
