@@ -696,35 +696,3 @@
         }
     }
 }
-@media only screen and (max-width: 1024px) {
-    #grilla3 {
-        display: grid;
-        grid-template-rows: .01fr 1.5fr 3fr .1fr;
-        grid-template-columns: 1fr;
-        grid-template-areas: "header"
-            "portada"
-            "listamods"
-            "footer";
-    }
-}
-@media only screen and (max-width: 500px) {
-    .listamods .titmods {font-size: 12px;}
-    .info {padding-inline: 15px;}
-    .carta h4 {padding-bottom: 5px;font-size: 10px;}
-    .button_mediafire {border: 1px solid white;padding: 3px;font-size: 15px;}
-    .button_mega {border: 1px solid white;padding: 3px;font-size: 15px;}
-    .carta2 h4 {padding-bottom: 5px;font-size: 8px;}
-    .carta3 h4 {padding-bottom: 5px;font-size: 8px;}
-    .carta4 h4 {padding-bottom: 5px;font-size: 8px;}
-    .carta5 h4 {padding-bottom: 5px;font-size: 8px;}
-    .carta6 h4 {padding-bottom: 5px;font-size: 8px;}
-    .carta7 h4 {padding-bottom: 5px;font-size: 10px;}
-    .carta8 h4 {padding-bottom: 5px;font-size: 8px;}
-    .carta9 h4 {padding-bottom: 5px;font-size: 8px;}
-    .carta10 h4 {padding-bottom: 5px;font-size: 8px;}
-    .carta11 h4 {padding-bottom: 5px;font-size: 8px;}
-    .carta12 h4 {padding-bottom: 5px;font-size: 8px;}
-    .carta13 h4 {padding-bottom: 5px;font-size: 8px;}
-    .carta14 h4 {padding-bottom: 5px;font-size: 8px;}
-    .carta15 h4 {padding-bottom: 5px;font-size: 8px;}
-}

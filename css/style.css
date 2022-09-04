@@ -226,206 +226,6 @@ aside .twitch {
   font-family: "anime";
   text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff; }
 
-@media only screen and (max-width: 1200px) {
-  #card div h5 {
-    font-size: 17px; }
-  #card div p {
-    font-size: 14px; }
-  .perfil img {
-    padding: 50px; }
-  .perfil div h3 {
-    font-size: 25px; }
-  .perfil div p {
-    font-size: 14px; }
-  .instagram img {
-    padding: 50px; }
-  .instagram div h3 {
-    font-size: 25px; }
-  .instagram div p {
-    font-size: 14px; }
-  .facebook img {
-    padding: 50px; }
-  .facebook div h3 {
-    font-size: 25px; }
-  .facebook div p {
-    font-size: 14px; }
-  .youtube img {
-    padding: 50px; }
-  .youtube div h3 {
-    font-size: 25px; }
-  .youtube div p {
-    font-size: 14px; }
-  .fanmanga img {
-    padding: 50px; }
-  .fanmanga div h3 {
-    font-size: 25px; }
-  .fanmanga div p {
-    font-size: 14px; }
-  .twitch img {
-    padding: 50px; }
-  .twitch div h3 {
-    font-size: 25px; }
-  .twitch div p {
-    font-size: 14px; } }
-
-@media only screen and (max-width: 992px) {
-  header nav div a h1 {
-    font-size: 30px !important; }
-  #card div h5 {
-    font-size: 13px; }
-  #card div p {
-    font-size: 11px; }
-  .perfil img {
-    padding: 0; }
-  .perfil div {
-    padding: 0;
-    padding-left: 0 !important; }
-  .perfil div h3 {
-    margin: 0;
-    font-size: 19px; }
-  .perfil div p {
-    font-size: 12px; }
-  .instagram img {
-    padding: 80px; }
-  .instagram div {
-    padding-left: 0 !important; }
-  .instagram div h3 {
-    margin: 0;
-    font-size: 20px; }
-  .instagram div p {
-    font-size: 12px; }
-  .facebook div {
-    padding: 0;
-    padding-left: 0 !important; }
-  .facebook img {
-    padding: 80px; }
-  .facebook div h3 {
-    margin: 0;
-    font-size: 20px; }
-  .facebook div p {
-    font-size: 12px; }
-  .youtube div {
-    padding: 0;
-    padding-left: 0 !important; }
-  .youtube img {
-    padding: 80px; }
-  .youtube div h3 {
-    margin: 0;
-    font-size: 20px; }
-  .youtube div p {
-    font-size: 12px; }
-  .fanmanga div {
-    padding: 0;
-    padding-left: 0 !important; }
-  .fanmanga img {
-    padding: 80px; }
-  .fanmanga div h3 {
-    margin: 0;
-    font-size: 20px; }
-  .fanmanga div p {
-    font-size: 12px; }
-  .twitch div {
-    padding: 0;
-    padding-left: 0 !important; }
-  .twitch img {
-    padding: 80px; }
-  .twitch div h3 {
-    margin: 0;
-    font-size: 20px; }
-  .twitch div p {
-    font-size: 12px; }
-  #footer div h2 {
-    font-size: 25px; } }
-
-@media only screen and (max-width: 500px) {
-  .card:not(:first-child) {
-    display: none; }
-  #card {
-    width: 100%; }
-  #card div h5 {
-    font-size: 33px; }
-  #card div p {
-    font-size: 25px; }
-  .btn-carousel, #button-next2, #button-prev2, #button-next2, #button-prev2 {
-    width: 20vh;
-    height: 20vh; } }
-
-@media only screen and (max-width: 576px) {
-  .card:not(:first-child) {
-    display: none; }
-  #card {
-    width: 100%; }
-  #card div h5 {
-    font-size: 30px !important; }
-  #card div p {
-    font-size: 20px !important; }
-  .btn-carousel, #button-next2, #button-prev2, #button-next2, #button-prev2 {
-    width: 10vh;
-    height: 10vh; }
-  .seccionnuevas .cards-wrapper {
-    padding-left: 0;
-    padding-right: 0; }
-  #card div h5 {
-    font-size: 17px; }
-  #grilla {
-    display: grid;
-    grid-template-rows: .01fr .01fr .5fr .5fr;
-    grid-template-columns: 1fr;
-    grid-template-areas: "header" "portada" "main" "main" "footer"; }
-  #principal {
-    grid-area: main;
-    display: grid;
-    grid-template-rows: .1fr 1fr .1fr .1fr;
-    grid-template-columns: 1fr;
-    grid-template-areas: "seccionnuevas" "aside" "secmods" "noticias"; }
-  .row {
-    margin-left: 0 !important;
-    margin-right: 0 !important; }
-  .perfil div h3 {
-    font-size: 25px; }
-  .perfil div p {
-    font-size: 17px; }
-  .instagram img {
-    padding: 0; }
-  .instagram div h3 {
-    font-size: 25px; }
-  .instagram div p {
-    font-size: 17px; }
-  .facebook img {
-    padding: 0; }
-  .facebook div h3 {
-    font-size: 25px; }
-  .facebook div p {
-    font-size: 17px; }
-  .youtube img {
-    padding: 0; }
-  .youtube div h3 {
-    font-size: 25px; }
-  .youtube div p {
-    font-size: 17px; }
-  .fanmanga img {
-    padding: 0; }
-  .fanmanga div h3 {
-    font-size: 25px; }
-  .fanmanga div p {
-    font-size: 17px; }
-  .twitch img {
-    padding: 0; }
-  .twitch div h3 {
-    font-size: 25px; }
-  .twitch div p {
-    font-size: 17px; }
-  .secmods {
-    margin-top: 25px; }
-  #footer {
-    justify-content: flex-end !important; }
-  #footer div {
-    width: 30.6%; }
-  #footer div h2 {
-    font-size: 15px; }
-  #footer div p {
-    font-size: 13px; } }
-
 #footer {
   background-color: rgba(43, 43, 43, 0.374);
   grid-area: footer; }
@@ -655,26 +455,6 @@ aside .twitch {
   .aviso .cartanoticia8 p {
     text-align: left;
     font-family: "letra1"; }
-
-@media only screen and (max-width: 992px) {
-  .aviso {
-    margin-left: 50px;
-    margin-right: 50px; }
-  .cartanoticia, .cartanoticia2, .cartanoticia3, .cartanoticia4, .cartanoticia5,
-  .cartanoticia6, .cartanoticia7, .cartanoticia8 {
-    padding-left: 70px;
-    padding-right: 70px; } }
-
-@media only screen and (max-width: 576px) {
-  .aviso {
-    margin-left: 20px;
-    margin-right: 20px; }
-  .cartanoticia, .cartanoticia2, .cartanoticia3, .cartanoticia4, .cartanoticia5,
-  .cartanoticia6, .cartanoticia7, .cartanoticia8 {
-    padding-left: 40px;
-    padding-right: 40px; }
-  #footer div {
-    max-width: 30.4%; } }
 
 #grilla3 {
   background: url(../images/fondo.jpg);
@@ -1272,72 +1052,6 @@ aside .twitch {
     margin-right: 30px !important;
     margin-left: 50px !important; }
 
-@media only screen and (max-width: 1024px) {
-  #grilla3 {
-    display: grid;
-    grid-template-rows: .01fr 1.5fr 3fr .1fr;
-    grid-template-columns: 1fr;
-    grid-template-areas: "header" "portada" "listamods" "footer"; } }
-
-@media only screen and (max-width: 500px) {
-  .listamods .titmods {
-    font-size: 12px; }
-  .info {
-    padding-inline: 15px; }
-  .carta h4 {
-    padding-bottom: 5px;
-    font-size: 10px; }
-  .button_mediafire {
-    border: 1px solid white;
-    padding: 3px;
-    font-size: 15px; }
-  .button_mega {
-    border: 1px solid white;
-    padding: 3px;
-    font-size: 15px; }
-  .carta2 h4 {
-    padding-bottom: 5px;
-    font-size: 8px; }
-  .carta3 h4 {
-    padding-bottom: 5px;
-    font-size: 8px; }
-  .carta4 h4 {
-    padding-bottom: 5px;
-    font-size: 8px; }
-  .carta5 h4 {
-    padding-bottom: 5px;
-    font-size: 8px; }
-  .carta6 h4 {
-    padding-bottom: 5px;
-    font-size: 8px; }
-  .carta7 h4 {
-    padding-bottom: 5px;
-    font-size: 10px; }
-  .carta8 h4 {
-    padding-bottom: 5px;
-    font-size: 8px; }
-  .carta9 h4 {
-    padding-bottom: 5px;
-    font-size: 8px; }
-  .carta10 h4 {
-    padding-bottom: 5px;
-    font-size: 8px; }
-  .carta11 h4 {
-    padding-bottom: 5px;
-    font-size: 8px; }
-  .carta12 h4 {
-    padding-bottom: 5px;
-    font-size: 8px; }
-  .carta13 h4 {
-    padding-bottom: 5px;
-    font-size: 8px; }
-  .carta14 h4 {
-    padding-bottom: 5px;
-    font-size: 8px; }
-  .carta15 h4 {
-    padding-bottom: 5px;
-    font-size: 8px; } }
-
 #grilla4 {
   background: url(../images/fondo.jpg);
   background-size: 100%;
@@ -1383,47 +1097,6 @@ div .cards-wrapper #carta-youtube {
     div .cards-wrapper #carta-youtube div a h5 {
       font-family: "anime";
       text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff; }
-
-@media only screen and (max-width: 1024px) {
-  #grilla4 {
-    display: grid;
-    grid-template-rows: .01fr .1fr 1fr .1fr;
-    grid-template-columns: 1fr;
-    grid-template-areas: "header" "portada" "listvideos" "footer"; } }
-
-@media only screen and (max-width: 1200px) {
-  .maslista {
-    margin-left: 500px; } }
-
-@media only screen and (max-width: 992px) {
-  .lisvideos div div div .cards-wrapper #carta-youtube {
-    width: 100%; }
-  .card-body h5 {
-    font-size: 20px !important; }
-  div .cards-wrapper #carta-youtube {
-    width: 100%; }
-  div .maslista {
-    margin-left: 10px; }
-  .card-body h5 {
-    font-size: 15px; } }
-
-@media only screen and (max-width: 768px) {
-  .maslista {
-    margin-left: 100px; }
-  .card-body h5 {
-    font-size: 12px; }
-  .seccionnuevas .cards-wrapper {
-    padding-left: 50px;
-    padding-right: 50px; } }
-
-@media only screen and (max-width: 576px) {
-  .card-body h5 {
-    font-size: 8px; }
-  .seccionnuevas .cards-wrapper {
-    padding-left: 20px;
-    padding-right: 20px; }
-  .maslista {
-    margin-left: 0px; } }
 
 #grilla5 {
   background: url(../images/fondo.jpg);
@@ -1498,7 +1171,281 @@ div .cards-wrapper #carta-youtube {
 .container div img {
   border-radius: 20%; }
 
+@media only screen and (max-width: 1200px) {
+  /*Index*/
+  #card div h5 {
+    font-size: 17px; }
+  #card div p {
+    font-size: 14px; }
+  .perfil img {
+    padding: 50px; }
+  .perfil div h3 {
+    font-size: 25px; }
+  .perfil div p {
+    font-size: 14px; }
+  .instagram img {
+    padding: 50px; }
+  .instagram div h3 {
+    font-size: 25px; }
+  .instagram div p {
+    font-size: 14px; }
+  .facebook img {
+    padding: 50px; }
+  .facebook div h3 {
+    font-size: 25px; }
+  .facebook div p {
+    font-size: 14px; }
+  .youtube img {
+    padding: 50px; }
+  .youtube div h3 {
+    font-size: 25px; }
+  .youtube div p {
+    font-size: 14px; }
+  .fanmanga img {
+    padding: 50px; }
+  .fanmanga div h3 {
+    font-size: 25px; }
+  .fanmanga div p {
+    font-size: 14px; }
+  .twitch img {
+    padding: 50px; }
+  .twitch div h3 {
+    font-size: 25px; }
+  .twitch div p {
+    font-size: 14px; }
+  /*videos*/
+  .maslista {
+    margin-left: 500px; } }
+
+@media only screen and (max-width: 1024px) {
+  /*mods*/
+  #grilla3 {
+    display: grid;
+    grid-template-rows: .01fr 1.5fr 3fr .1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: "header" "portada" "listamods" "footer"; }
+  /*videos*/
+  #grilla4 {
+    display: grid;
+    grid-template-rows: .01fr .1fr 1fr .1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: "header" "portada" "listvideos" "footer"; } }
+
+@media only screen and (max-width: 768px) {
+  /*videos*/
+  .maslista {
+    margin-left: 100px; }
+  .card-body h5 {
+    font-size: 12px; }
+  .seccionnuevas .cards-wrapper {
+    padding-left: 50px;
+    padding-right: 50px; } }
+
+@media only screen and (max-width: 992px) {
+  /*Index*/
+  header nav div a h1 {
+    font-size: 30px !important; }
+  #card div h5 {
+    font-size: 13px; }
+  #card div p {
+    font-size: 11px; }
+  .perfil img {
+    padding: 0; }
+  .perfil div {
+    padding: 0;
+    padding-left: 0 !important; }
+  .perfil div h3 {
+    margin: 0;
+    font-size: 19px; }
+  .perfil div p {
+    font-size: 12px; }
+  .instagram img {
+    padding: 80px; }
+  .instagram div {
+    padding-left: 0 !important; }
+  .instagram div h3 {
+    margin: 0;
+    font-size: 20px; }
+  .instagram div p {
+    font-size: 12px; }
+  .facebook div {
+    padding: 0;
+    padding-left: 0 !important; }
+  .facebook img {
+    padding: 80px; }
+  .facebook div h3 {
+    margin: 0;
+    font-size: 20px; }
+  .facebook div p {
+    font-size: 12px; }
+  .youtube div {
+    padding: 0;
+    padding-left: 0 !important; }
+  .youtube img {
+    padding: 80px; }
+  .youtube div h3 {
+    margin: 0;
+    font-size: 20px; }
+  .youtube div p {
+    font-size: 12px; }
+  .fanmanga div {
+    padding: 0;
+    padding-left: 0 !important; }
+  .fanmanga img {
+    padding: 80px; }
+  .fanmanga div h3 {
+    margin: 0;
+    font-size: 20px; }
+  .fanmanga div p {
+    font-size: 12px; }
+  .twitch div {
+    padding: 0;
+    padding-left: 0 !important; }
+  .twitch img {
+    padding: 80px; }
+  .twitch div h3 {
+    margin: 0;
+    font-size: 20px; }
+  .twitch div p {
+    font-size: 12px; }
+  #footer div h2 {
+    font-size: 25px; }
+  /*noticias nuevas*/
+  .aviso {
+    margin-left: 50px;
+    margin-right: 50px; }
+  .cartanoticia, .cartanoticia2, .cartanoticia3, .cartanoticia4, .cartanoticia5,
+  .cartanoticia6, .cartanoticia7, .cartanoticia8 {
+    padding-left: 70px;
+    padding-right: 70px; }
+  /*Videos*/
+  .lisvideos div div div .cards-wrapper #carta-youtube {
+    width: 100%; }
+  .card-body h5 {
+    font-size: 20px !important; }
+  div .cards-wrapper #carta-youtube {
+    width: 100%; }
+  div .maslista {
+    margin-left: 10px; }
+  .card-body h5 {
+    font-size: 15px; } }
+
 @media only screen and (max-width: 576px) {
+  /*Index*/
+  .card:not(:first-child) {
+    display: none; }
+  #card {
+    width: 100%; }
+  #card div h5 {
+    font-size: 30px !important; }
+  #card div p {
+    font-size: 20px !important; }
+  .btn-carousel, #button-next2, #button-prev2, #button-next2, #button-prev2 {
+    width: 10vh;
+    height: 10vh; }
+  .seccionnuevas .cards-wrapper {
+    padding-left: 0;
+    padding-right: 0; }
+  #card div h5 {
+    font-size: 17px; }
+  #grilla {
+    display: grid;
+    grid-template-rows: .01fr .01fr .5fr .5fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: "header" "portada" "main" "main" "footer"; }
+  #principal {
+    grid-area: main;
+    display: grid;
+    grid-template-rows: .1fr 1fr .1fr .1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: "seccionnuevas" "aside" "secmods" "noticias"; }
+  .row {
+    margin-left: 0 !important;
+    margin-right: 0 !important; }
+  .perfil div h3 {
+    font-size: 25px; }
+  .perfil div p {
+    font-size: 17px; }
+  .instagram img {
+    padding: 0; }
+  .instagram div h3 {
+    font-size: 25px; }
+  .instagram div p {
+    font-size: 17px; }
+  .facebook img {
+    padding: 0; }
+  .facebook div h3 {
+    font-size: 25px; }
+  .facebook div p {
+    font-size: 17px; }
+  .youtube img {
+    padding: 0; }
+  .youtube div h3 {
+    font-size: 25px; }
+  .youtube div p {
+    font-size: 17px; }
+  .fanmanga img {
+    padding: 0; }
+  .fanmanga div h3 {
+    font-size: 25px; }
+  .fanmanga div p {
+    font-size: 17px; }
+  .twitch img {
+    padding: 0; }
+  .twitch div h3 {
+    font-size: 25px; }
+  .twitch div p {
+    font-size: 17px; }
+  .secmods {
+    margin-top: 25px; }
+  #footer {
+    justify-content: flex-end !important; }
+  #footer div {
+    width: 30.6%; }
+  #footer div h2 {
+    font-size: 15px; }
+  #footer div p {
+    font-size: 13px; }
+  /*mods*/
+  .listamods .carta {
+    display: flex; }
+  .listamods .carta5 {
+    display: flex; }
+  .listamods .carta9 {
+    display: flex; }
+  .listamods .carta13 {
+    display: flex; }
+  #grilla3 {
+    grid-template-rows: .01fr .1fr 3fr .1fr; }
+  .listamods {
+    padding: 0;
+    padding-top: 20px; }
+  /*noticias nuevas*/
+  .aviso {
+    margin-left: 20px;
+    margin-right: 20px; }
+  .cartanoticia, .cartanoticia2, .cartanoticia3, .cartanoticia4, .cartanoticia5,
+  .cartanoticia6, .cartanoticia7, .cartanoticia8 {
+    padding-left: 40px;
+    padding-right: 40px; }
+  #footer div {
+    max-width: 30.4%; }
+  /*videos*/
+  .card-body h5 {
+    font-size: 8px; }
+  .seccionnuevas .cards-wrapper {
+    padding-left: 20px;
+    padding-right: 20px; }
+  .maslista {
+    margin-left: 0px; }
+  #grilla2 {
+    background: url(../images/fondo.jpg);
+    background-size: 100%;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr;
+    grid-template-areas: "header" "portada" "aviso" "footer"; }
+  /*Contacto*/
   .sobremi {
     height: 70vh;
     padding-inline: 50px;
@@ -1509,3 +1456,46 @@ div .cards-wrapper #carta-youtube {
     width: 500px; }
   .image-youtu {
     width: 500px; } }
+
+@media only screen and (max-width: 500px) {
+  /*Index*/
+  .card:not(:first-child) {
+    display: none; }
+  #card {
+    width: 100%; }
+  #card div h5 {
+    font-size: 33px; }
+  #card div p {
+    font-size: 25px; }
+  .btn-carousel, #button-next2, #button-prev2, #button-next2, #button-prev2 {
+    width: 20vh;
+    height: 20vh; }
+  /*mods*/
+  #grilla3 {
+    grid-template-rows: .01fr .1fr 3fr .1fr; }
+  .listamods {
+    padding: 0;
+    padding-top: 20px; }
+  .listamods .carta {
+    display: flex; }
+  .listamods .carta5 {
+    display: flex; }
+  .listamods .carta9 {
+    display: flex; }
+  .listamods .carta13 {
+    display: flex; }
+  .listamods .titmods {
+    font-size: 12px; }
+  .info {
+    padding-inline: 15px; }
+  .carta5 h4 {
+    padding-bottom: 5px;
+    font-size: 8px; }
+  .carta9 h4 {
+    padding-bottom: 5px;
+    font-size: 8px; }
+  .carta13 h4 {
+    padding-bottom: 5px;
+    font-size: 8px; }
+  #footer div {
+    max-width: 29.5%; } }

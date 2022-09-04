@@ -240,14 +240,3 @@
         }
     }
 }
-@media only screen and (max-width: 992px) {
-    .aviso{margin-left: 50px; margin-right: 50px}
-    .cartanoticia, .cartanoticia2, .cartanoticia3, .cartanoticia4, .cartanoticia5,
-    .cartanoticia6, .cartanoticia7, .cartanoticia8{padding-left: 70px;padding-right: 70px;}
-}
-@media only screen and (max-width: 576px) {
-    .aviso{margin-left: 20px; margin-right: 20px}
-    .cartanoticia, .cartanoticia2, .cartanoticia3, .cartanoticia4, .cartanoticia5,
-    .cartanoticia6, .cartanoticia7, .cartanoticia8{padding-left: 40px;padding-right: 40px;}
-    #footer div{max-width: 30.4%;}
-}

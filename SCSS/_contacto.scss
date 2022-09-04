@@ -55,13 +55,3 @@
 }
 .container div div h1{text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff;}
 .container div img{border-radius: 20%;}
-@media only screen and (max-width: 576px) {
-    .sobremi {
-        height: 70vh;
-        padding-inline: 50px;
-        animation: movimiento 10s infinite linear alternate;
-    }
-    .sobremi div p {font-size: 15px;}
-    .image-face{width: 500px;}
-    .image-youtu{width: 500px;}
-}

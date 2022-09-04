@@ -1,4 +1,5 @@
 @import './_variables';
+@import './mixins';
 @import './_header';
 @import './_portada';
 #grilla {
@@ -62,3 +63,9 @@
         "footer";
 }
 @import './contacto';
+@include implementacion-query(1200);
+@include implementacion-query(1024);
+@include implementacion-query(768);
+@include implementacion-query(992);
+@include implementacion-query(576);
+@include implementacion-query(500);
