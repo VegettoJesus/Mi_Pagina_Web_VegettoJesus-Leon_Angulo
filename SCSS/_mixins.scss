@@ -25,6 +25,14 @@
             .twitch img{padding: 50px;}
             .twitch div h3{font-size: 25px;}
             .twitch div p{font-size: 14px;}
+            #button-prev2{
+                width: 70px !important;
+                height: 70px !important;
+            }
+            #button-next2{
+                width: 70px !important;
+                height: 70px !important;
+            }
             /*videos*/
             .maslista{margin-left: 500px;}
         } 
@@ -56,34 +64,95 @@
     @else if $vista == 992{
         @media only screen and (max-width: 992px){
             /*Index*/
+            #grilla {
+                background: url(../images/fondo.jpg);
+                background-size: 100%;
+                display: grid;
+                grid-template-rows: auto;
+                grid-template-columns: auto;
+                grid-template-areas: "header"
+                    "portada"
+                    "main"
+                    "main"
+                    "footer";
+            }
+            #principal {
+                grid-area: main;
+                display: grid;
+                grid-template-rows: auto;
+                grid-template-columns: auto;
+                grid-template-areas: "seccionnuevas"
+                    "aside"
+                    "secmods"
+                    "noticias";
+            }
+            .seccionnuevas div h3{
+                font-size: 40px !important;
+            }
+            .card:not(:first-child){
+                display: none;
+            }
+            #card{
+                width: 100%;
+            }
+            #card div h5{
+                font-size: 40px !important;
+            }
+            #card div p{
+                font-size: 25px;
+            }
+            #card div a{
+                font-size: 25px;
+            }
+            .btn-carousel, #button-next2, #button-prev2{
+                width: 20vh;
+                height: 20vh;
+            }
+            aside div a img{
+                width: 25rem !important;
+                height: 25rem !important;
+            }
+            aside div h1{
+                font-size: 45px !important;
+            }
+            aside div div h3{
+                font-size: 45px !important;
+            }
+            aside div div p{
+                font-size: 25px !important;
+            }
+            .more{
+                font-size: 25px !important;
+            }
+            .secmods div h3{
+                font-size: 45px !important;
+            }
+            #principal div h2{
+                font-size: 45px !important;
+            }
+            #news0001 h3{
+                font-size: 30px !important;
+            }
+            #news0001 div{
+                font-size: 30px !important;
+            }
+            #news0001 p{
+                font-size: 25px !important;
+            }
+            #news0001 img{
+                width: 45rem;
+            }
+            /*mods*/
+            #grilla3{
+                grid-template-rows: .01fr .1fr 3fr .1fr;
+            }
+            .listamods{
+                padding: 0;
+                padding-top: 20px;
+            }
             header nav div a h1{font-size: 30px !important;}
-            #card div h5{font-size: 13px;}
-            #card div p{font-size: 11px;}
-            .perfil img{padding: 0;}
-            .perfil div{padding: 0;padding-left: 0 !important;}
-            .perfil div h3{margin: 0;font-size: 19px;}
-            .perfil div p{font-size: 12px;}
-            .instagram img{padding: 80px;}
-            .instagram div{padding-left: 0 !important;}
-            .instagram div h3{margin: 0;font-size: 20px;}
-            .instagram div p{font-size: 12px;}
-            .facebook div{padding:0;padding-left: 0 !important;}
-            .facebook img{padding: 80px;}
-            .facebook div h3{margin: 0;font-size: 20px;}
-            .facebook div p{font-size: 12px;}
-            .youtube div{padding:0;padding-left: 0 !important;}
-            .youtube img{padding: 80px;}
-            .youtube div h3{margin: 0;font-size: 20px;}
-            .youtube div p{font-size: 12px;}
-            .fanmanga div{padding:0;padding-left: 0 !important;}
-            .fanmanga img{padding: 80px;}
-            .fanmanga div h3{margin: 0;font-size: 20px;}
-            .fanmanga div p{font-size: 12px;}
-            .twitch div{padding:0;padding-left: 0 !important;}
-            .twitch img{padding: 80px;}
-            .twitch div h3{margin: 0;font-size: 20px;}
-            .twitch div p{font-size: 12px;}
-            #footer div h2{font-size: 25px;}
+            aside{margin-left: 24px !important; margin-bottom: 50px;}
+            
             /*noticias nuevas*/
             .aviso{margin-left: 50px; margin-right: 50px}
             .cartanoticia, .cartanoticia2, .cartanoticia3, .cartanoticia4, .cartanoticia5,
@@ -108,75 +177,64 @@
             .maslista{margin-left: 100px;}
             .card-body h5{font-size: 12px;}
             .seccionnuevas .cards-wrapper{padding-left: 50px;padding-right: 50px;}
+
+            /*Index*/
+           .col-6{
+            width: inherit;
+           }
+           aside div div p{
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-bottom: 50px;
+           }
+           aside div div h3{
+            text-align: center;
+           }
+           aside div a img{
+            padding: 0px !important;
+            margin-left: 150px;
+           }
         } 
     }
     @else if $vista == 576{
         @media only screen and (max-width: 576px){
             /*Index*/
-            .card:not(:first-child){
-                display: none;
-            }
-            #card{
-                width: 100%;
-            }
-            #card div h5{
-                font-size: 30px !important;
-            }
-            #card div p{
-                font-size: 20px !important;
-            }
-            .btn-carousel, #button-next2, #button-prev2{
-                width: 10vh;
-                height: 10vh;
-            }
             .seccionnuevas .cards-wrapper{padding-left: 0;padding-right: 0;}
             #card div h5{font-size: 17px;}
-            #grilla {
-                display: grid;
-                grid-template-rows: .01fr .01fr .5fr .5fr;
-                grid-template-columns: 1fr;
-                grid-template-areas: "header"
-                    "portada"
-                    "main"
-                    "main"
-                    "footer";
-            }
-            #principal {
-                grid-area: main;
-                display: grid;
-                grid-template-rows: .1fr 1fr .1fr .1fr;
-                grid-template-columns: 1fr;
-                grid-template-areas: "seccionnuevas"
-                    "aside"
-                    "secmods"
-                    "noticias";
-            }
             .row{margin-left: 0 !important;margin-right: 0 !important;}
-            .perfil div h3{font-size: 25px;}
-            .perfil div p{font-size: 17px;}
-            .instagram img{padding: 0;}
-            .instagram div h3{font-size: 25px;}
-            .instagram div p{font-size: 17px;}
-            .facebook img{padding: 0;}
-            .facebook div h3{font-size: 25px;}
-            .facebook div p{font-size: 17px;}
-            .youtube img{padding: 0;}
-            .youtube div h3{font-size: 25px;}
-            .youtube div p{font-size: 17px;}
-            .fanmanga img{padding: 0;}
-            .fanmanga div h3{font-size: 25px;}
-            .fanmanga div p{font-size: 17px;}
-            .twitch img{padding: 0;}
-            .twitch div h3{font-size: 25px;}
-            .twitch div p{font-size: 17px;}
-            .secmods{margin-top: 25px;}
-            #footer{justify-content: flex-end !important;}
-            #footer div{width: 30.6%;}
-            #footer div h2{
-                font-size: 15px;
+            
+            aside{
+                width: 500px;
             }
-            #footer div p{
-                font-size: 13px;
+            #principal aside{
+                margin-left: 20px !important;
+            }
+            aside div a img{
+                margin-left: 0px;
+            }
+            .secmods{
+                width: 450px;
+            }
+            .noticias{
+                width: 450px;
+            }
+            .tarjmod{
+                width: 400px;
+            }
+            main div div .more{
+                margin-left: 150px !important;
+            }
+            .noticias .more{
+                margin-left: 170px !important;
+            }
+            #news0001{
+                width: 360px;
+            }
+            #news0001 img{
+                width: 500px !important;
+            }
+            .tarjmod{
+                width: 358px;
             }
             /*mods*/
             .listamods .carta{display: flex;}
@@ -190,12 +248,12 @@
                 padding: 0;
                 padding-top: 20px;
             }
-
+            
             /*noticias nuevas*/
             .aviso{margin-left: 20px; margin-right: 20px}
             .cartanoticia, .cartanoticia2, .cartanoticia3, .cartanoticia4, .cartanoticia5,
             .cartanoticia6, .cartanoticia7, .cartanoticia8{padding-left: 40px;padding-right: 40px;}
-            #footer div{max-width: 30.4%;}
+            
             /*videos*/
             .card-body h5{font-size: 8px;}
             .seccionnuevas .cards-wrapper{padding-left: 20px;padding-right: 20px;}
@@ -224,22 +282,21 @@
     }
     @else if $vista == 500{
         @media only screen and (max-width: 500px){
-            /*Index*/
-            .card:not(:first-child){
-                display: none;
+
+            /*index*/
+            aside{
+                width: 400px;
             }
-            #card{
-                width: 100%;
+            aside div a img{
+                width: 300px !important;
+                height: 300px !important;
             }
-            #card div h5{
-                font-size: 33px;
+            .secmods{
+                margin-left: 0px !important;
+                margin-right: 0px !important;
             }
-            #card div p{
-                font-size: 25px;
-            }
-            .btn-carousel, #button-next2, #button-prev2{
-                width: 20vh;
-                height: 20vh;
+            main .noticias{
+                margin-left: 0px !important;
             }
             /*mods*/
             #grilla3{
@@ -258,7 +315,7 @@
             .carta5 h4 {padding-bottom: 5px;font-size: 8px;}
             .carta9 h4 {padding-bottom: 5px;font-size: 8px;}
             .carta13 h4 {padding-bottom: 5px;font-size: 8px;}
-            #footer div{max-width: 29.5%;}
+            
         } 
     }
 }
