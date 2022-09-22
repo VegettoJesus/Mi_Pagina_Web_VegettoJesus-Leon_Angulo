@@ -1171,6 +1171,9 @@ div .cards-wrapper #carta-youtube {
 .container div img {
   border-radius: 20%; }
 
+.secmods {
+  margin-bottom: 50px !important; }
+
 @media only screen and (max-width: 1200px) {
   /*Index*/
   #card div h5 {

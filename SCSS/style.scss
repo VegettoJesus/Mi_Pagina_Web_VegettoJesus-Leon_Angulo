@@ -63,6 +63,7 @@
         "footer";
 }
 @import './contacto';
+@include implementacion-query(1400);
 @include implementacion-query(1200);
 @include implementacion-query(1024);
 @include implementacion-query(768);
