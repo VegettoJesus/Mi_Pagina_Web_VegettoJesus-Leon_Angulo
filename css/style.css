@@ -1235,7 +1235,7 @@ div .cards-wrapper #carta-youtube {
     margin-bottom: 20px !important; }
   /*videos*/
   .maslista {
-    margin-left: 500px; } }
+    margin-left: 500px !important; } }
 
 @media only screen and (max-width: 1024px) {
   /*mods*/
@@ -1323,7 +1323,8 @@ div .cards-wrapper #carta-youtube {
     padding-right: 50px !important; }
   /*videos*/
   .maslista {
-    margin-left: 100px; }
+    margin-left: 50px !important;
+    font-size: 25px !important; }
   .card-body h5 {
     font-size: 12px; }
   .seccionnuevas .cards-wrapper {
@@ -1455,11 +1456,13 @@ div .cards-wrapper #carta-youtube {
   .lisvideos div div div .cards-wrapper #carta-youtube {
     width: 100%; }
   .card-body h5 {
-    font-size: 20px !important; }
+    font-size: 35px !important; }
   div .cards-wrapper #carta-youtube {
     width: 100%; }
   div .maslista {
-    margin-left: 10px; }
+    font-size: 25px !important; }
+  .seccionnuevas a {
+    margin-left: 50px !important; }
   .card-body h5 {
     font-size: 15px; } }
 
@@ -1538,8 +1541,8 @@ div .cards-wrapper #carta-youtube {
   .seccionnuevas .cards-wrapper {
     padding-left: 20px;
     padding-right: 20px; }
-  .maslista {
-    margin-left: 0px; }
+  .seccionnuevas a {
+    margin-left: 150px !important; }
   #grilla2 {
     background: url(../images/fondo.jpg);
     background-size: 100%;
