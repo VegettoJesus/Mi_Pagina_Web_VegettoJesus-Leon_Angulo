@@ -1,0 +1,65 @@
+.lisvideos{
+    .seccionnuevas{
+        div{
+            h3{
+                display: inline-block;
+            }
+        }
+    }
+    div{
+        div{
+            div{
+                .cards-wrapper{
+                    #carta-youtube{
+                        margin: 0 1em;
+                        width: calc(100%/4);
+                        background: map-get($degradado, "degradado-13");
+                        div{
+                            a{
+                                text-decoration: none;
+                                h5{
+                                    font-family: map-get($diccionario-letras, "letra-1");text-shadow: map-get($diseño-letras, "diseño-letra-5"), map-get($diseño-letras, "diseño-letra-6"), map-get($diseño-letras, "diseño-letra-7"), map-get($diseño-letras, "diseño-letra-7"), map-get($diseño-letras, "diseño-letra-7");
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+div{
+    .maslista{
+        margin-top: 10px;
+        margin-left: 800px;
+        padding: 15px 30px;
+        color: white;
+        letter-spacing: 4px;
+        text-decoration: none;
+        overflow: hidden;
+        transition: 0.2s;
+        &:hover{
+            background: $color-rosa;
+            box-shadow: 0 0 10px $color-rosa, 0 0 40px $color-rosa, 0 0 80px $color-rosa;
+            color: white;
+            transition-delay: 0.1s;
+        }
+    }
+}
+div{
+    .cards-wrapper{
+        #carta-youtube{
+            margin: 0 1em;
+            width: calc(100%/4);
+            background: map-get($degradado, "degradado-13");
+            div{
+                a{
+                    text-decoration: none;
+                    h5{
+                        font-family: map-get($diccionario-letras, "letra-1");text-shadow: map-get($diseño-letras, "diseño-letra-5"), map-get($diseño-letras, "diseño-letra-6"), map-get($diseño-letras, "diseño-letra-7"), map-get($diseño-letras, "diseño-letra-7"), map-get($diseño-letras, "diseño-letra-7");
+                    }
+                }
+            }
+        }
+    }
+}

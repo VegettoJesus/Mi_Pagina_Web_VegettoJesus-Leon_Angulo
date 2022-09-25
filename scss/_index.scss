@@ -1,0 +1,233 @@
+
+#principal {
+    grid-area: main;
+    display: grid;
+    grid-template-rows: .1fr 1fr .1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "seccionnuevas seccionnuevas"
+        "secmods aside"
+        "noticias aside";
+}
+.seccionnuevas{grid-area: seccionnuevas;}
+.seccionnuevas .cards-wrapper{
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.seccionnuevas{
+    div{
+        h3{
+            border-left: solid 5px $color-12;
+            color: $color-13;
+        }
+    }
+}
+#card{
+    width: calc(100%/4);
+    background: map-get($degradado,"degradado-1");
+    div{
+        h5{
+            font-family: map-get($diccionario-letras, "letra-1");
+            text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff;
+        }
+        p{
+            font-family: map-get($diccionario-letras, "letra-2");
+        }
+    }
+}
+#button-next2{
+    @extend .btn-carousel;
+    margin-left: 0;
+    margin-right: 30px;
+    span{
+        width: 1.5rem;height: 1.5rem;
+    }
+}
+#button-prev2{
+    @extend .btn-carousel;
+    span{
+        width: 1.5rem;height: 1.5rem;
+    }
+}
+.secmods {
+    background-color: $color-fondo;
+    margin-bottom: 30em;
+    grid-area: secmods;}
+
+.noticias {
+    background-color: $color-fondo;
+    grid-area: noticias;}
+aside {
+    background-color: $color-fondo;
+    grid-area: aside;}
+.secmods{
+    div{
+        h3{
+            border-left: solid 5px $color-12;
+            color: $color-13;
+        }
+        .more{
+            @extend .btn-mas;
+            &:hover{
+                @extend .diseño-btn-mas;
+            }
+        }
+    }
+    .tarj{
+        .tarjmod{
+            transform: perspective(750px) translate3d(0px, 0px, -250px) rotateX(27deg) scale(0.9, 0.9);
+            box-shadow: map-get($diseño-letras, "diseño-letra-4");
+            transition: 0.4s ease-in-out transform;
+            &:hover{
+                transform: translate3d(0px, 0px, -250px);
+            }
+        }
+    }
+}
+.noticias{
+    div{
+        h2{
+            border-left: solid 5px $color-12;
+            color: $color-13;
+        }
+    }
+    .news{
+        .date{
+            font-family: map-get($diccionario-letras, "letra-2");
+            float: right;
+        }
+        h3{
+            background: $color-11;
+            font-family: map-get($diccionario-letras, "letra-2");
+        }
+        img{
+            margin: 0.2em 0.5em 0.2em 0;
+            max-width: 100%;
+            transform:
+            perspective(750px) translate3d(0px, 0px, -250px) rotateX(27deg) scale(0.9, 0.9);
+            box-shadow: map-get($diseño-letras, "diseño-letra-4");
+            transition: 0.4s ease-in-out transform;
+            &:hover{
+                transform: translate3d(0px, 0px, -250px);
+            }
+        }
+        p{
+            font-family: map-get($diccionario-letras, "letra-2");
+        }
+    }
+    div{
+        .more{
+            @extend .btn-mas;
+            &:hover{
+                @extend .diseño-btn-mas;
+            }
+        }
+    }
+}
+aside{
+    .redessociales{
+        background: map-get($degradado, "degradado-2");
+        h1{
+            @extend .diseño-letra;
+        }
+    }
+    .perfil{
+        background: map-get($degradado, "degradado-3");
+        div{
+            h3{
+                @extend .diseño-letra;
+            }
+            p{
+                font-family: map-get($diccionario-letras,"letra-2");
+            }
+        }
+    }
+    .facebook{
+        background: map-get($degradado, "degradado-4");
+        div{
+            h3{
+                @extend .diseño-letra;
+            }
+            p{
+                font-family: map-get($diccionario-letras,"letra-2");
+            }
+        }
+    }
+    .instagram{
+        background: map-get($degradado, "degradado-5");
+        div{
+            h3{
+                @extend .diseño-letra;
+            }
+            p{
+                font-family: map-get($diccionario-letras,"letra-2");
+            }
+        }
+    }
+    .youtube{
+        background: map-get($degradado, "degradado-6");
+        div{
+            h3{
+                @extend .diseño-letra;
+            }
+            p{
+                font-family: map-get($diccionario-letras,"letra-2");
+            }
+        }
+    }
+    .fanmanga{
+        background: map-get($degradado, "degradado-7");
+        div{
+            h3{
+                @extend .diseño-letra;
+            }
+            p{
+                font-family: map-get($diccionario-letras,"letra-2");
+            }
+        }
+    }
+    .twitch{
+        background: map-get($degradado, "degradado-8");
+        div{
+            h3{
+                @extend .diseño-letra;
+            }
+            p{
+                font-family: map-get($diccionario-letras,"letra-2");
+            }
+        }
+    }
+}
+
+
+.btn-carousel{
+    background-color: $color-especial-2;
+    width: 6vh;
+    height: 6vh;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 30px;
+    z-index: 0;
+}
+.btn-mas{
+    margin-left: 300px;
+    display: inline-block;
+    padding: 15px 30px;
+    color: white;
+    letter-spacing: 4px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+}
+.diseño-btn-mas{
+    background: $color-rosa;
+    box-shadow: map-get($diseño-letras, "diseño-letra-1"),map-get($diseño-letras, "diseño-letra-2"),map-get($diseño-letras, "diseño-letra-3");
+    color: white;
+    transition-delay: 0.1s;
+}
+.diseño-letra{
+    font-family: map-get($diccionario-letras, "letra-1");
+    text-shadow:map-get($diseño-letras, "diseño-letra-5"), map-get($diseño-letras, "diseño-letra-6"), map-get($diseño-letras, "diseño-letra-7"), map-get($diseño-letras, "diseño-letra-7"),map-get($diseño-letras, "diseño-letra-7");
+}

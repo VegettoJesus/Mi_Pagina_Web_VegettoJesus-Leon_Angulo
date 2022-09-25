@@ -1,0 +1,40 @@
+header{
+    background-color: rgb(43, 43, 43);
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    grid-area: header;
+    nav{
+        div{
+            .logo{
+                font-family:map-get($diccionario-letras, "letra-1");
+                img{
+                    width: 70px;height: 60px;
+                    margin-right: 10px;
+                }
+                h1{
+                    color: rgb(185, 213, 29);
+                    font-size: 40px;
+                    margin-top: 10px
+                }
+            }
+        }
+    }
+    
+}
+header{
+    nav{
+        div{
+            ul{
+                li{
+                    a{
+                        font-family: map-get($diccionario-letras, "letra-2" );
+                        font-size: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+.nav-link {color: white!important;}
+.nav-link:hover{color: rgb(234, 255, 0)!important;}
