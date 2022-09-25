@@ -1,83 +1,406 @@
-@mixin implementacion-query($vista){
-    @if $vista == 1400{
-        .secmods{margin-bottom: 50px!important;}
+@mixin implementacion-query($vista) {
+    @if $vista ==1400 {
+        .secmods {
+            margin-bottom: 50px !important;
+        }
+
+        .sobremi div p {
+            font-size: 25px;
+        }
+
+        .coneceme div p {
+            font-size: 35px;
+        }
     }
-    @else if $vista == 1200 {
-        @media only screen and (max-width: 1200px){
+
+    @else if $vista ==1200 {
+        @media only screen and (max-width: 1200px) {
+
             /*Index*/
-            #card div h5{font-size: 17px;}
-            #card div p{font-size: 14px;}
-            .perfil img{padding: 50px;}
-            .perfil div h3{font-size: 25px;}
-            .perfil div p{font-size: 14px;}
-            .instagram img{padding: 50px;}
-            .instagram div h3{font-size: 25px;}
-            .instagram div p{font-size: 14px;}
-            .facebook img{padding: 50px;}
-            .facebook div h3{font-size: 25px;}
-            .facebook div p{font-size: 14px;}
-            .youtube img{padding: 50px;}
-            .youtube div h3{font-size: 25px;}
-            .youtube div p{font-size: 14px;}
-            .fanmanga img{padding: 50px;}
-            .fanmanga div h3{font-size: 25px;}
-            .fanmanga div p{font-size: 14px;}
-            .twitch img{padding: 50px;}
-            .twitch div h3{font-size: 25px;}
-            .twitch div p{font-size: 14px;}
-            #button-prev2{
+            #card div h5 {
+                font-size: 17px;
+            }
+
+            #card div p {
+                font-size: 14px;
+            }
+
+            .perfil img {
+                padding: 50px;
+            }
+
+            .perfil div h3 {
+                font-size: 25px;
+            }
+
+            .perfil div p {
+                font-size: 14px;
+            }
+
+            .instagram img {
+                padding: 50px;
+            }
+
+            .instagram div h3 {
+                font-size: 25px;
+            }
+
+            .instagram div p {
+                font-size: 14px;
+            }
+
+            .facebook img {
+                padding: 50px;
+            }
+
+            .facebook div h3 {
+                font-size: 25px;
+            }
+
+            .facebook div p {
+                font-size: 14px;
+            }
+
+            .youtube img {
+                padding: 50px;
+            }
+
+            .youtube div h3 {
+                font-size: 25px;
+            }
+
+            .youtube div p {
+                font-size: 14px;
+            }
+
+            .fanmanga img {
+                padding: 50px;
+            }
+
+            .fanmanga div h3 {
+                font-size: 25px;
+            }
+
+            .fanmanga div p {
+                font-size: 14px;
+            }
+
+            .twitch img {
+                padding: 50px;
+            }
+
+            .twitch div h3 {
+                font-size: 25px;
+            }
+
+            .twitch div p {
+                font-size: 14px;
+            }
+
+            #button-prev2 {
                 width: 70px !important;
                 height: 70px !important;
             }
-            #button-next2{
+
+            #button-next2 {
                 width: 70px !important;
                 height: 70px !important;
             }
+
             /*Mods*/
-            .listamods{
-                gap:1px;
+            .listamods {
+                gap: 1px;
                 padding-left: 0px;
                 padding-right: 0px;
                 padding-bottom: 0px;
             }
-            #grilla3{
+
+            #grilla3 {
                 grid-template-rows: auto;
                 grid-template-columns: auto;
             }
-            .listamods .card{
+
+            .listamods .card {
                 margin-bottom: 20px !important;
             }
-            /*videos*/
-            .maslista{margin-left: 500px !important;}
 
-        } 
-    }
-    @else if $vista == 1024{
-        @media only screen and (max-width: 1024px){
-            /*mods*/
-            #grilla3 {
-                display: grid;
-                grid-template-rows: .01fr 1.5fr 3fr .1fr;
-                grid-template-columns: 1fr;
-                grid-template-areas: "header"
-                    "portada"
-                    "listamods"
-                    "footer";
-            }
             /*videos*/
-            #grilla4 {
+            .maslista {
+                margin-left: 500px !important;
+            }
+
+        }
+    }
+
+    @else if $vista ==1024 {
+        @media only screen and (max-width: 1024px) {
+
+            /*Index*/
+            header nav div .logo h1{
+                font-size: 35px;
+            }
+            #grilla {
+                background: url(../images/fondo.jpg);
+                background-size: 100%;
                 display: grid;
-                grid-template-rows: .01fr .1fr 1fr .1fr;
-                grid-template-columns: 1fr;
+                grid-template-rows: auto;
+                grid-template-columns: auto;
                 grid-template-areas: "header"
                     "portada"
-                    "listvideos"
+                    "main"
+                    "main"
                     "footer";
             }
-        } 
+
+            #principal {
+                grid-area: main;
+                display: grid;
+                grid-template-rows: auto;
+                grid-template-columns: auto;
+                grid-template-areas: "seccionnuevas"
+                    "aside"
+                    "secmods"
+                    "noticias";
+            }
+            .aside{
+                width: 780px;
+            }
+            .perfil div h3{
+                font-size: 35px;
+            }
+            .perfil div p{
+                font-size: 24px;
+            }
+            .instagram div h3{
+                font-size: 35px;
+            }
+            .instagram div p{
+                font-size: 24px;
+            }
+            .facebook div h3{
+                font-size: 35px;
+            }
+            .facebook div p{
+                font-size: 24px;
+            }
+            .youtube div h3{
+                font-size: 35px;
+            }
+            .youtube div p{
+                font-size: 24px;
+            }
+            .fanmanga div h3{
+                font-size: 35px;
+            }
+            .fanmanga div p{
+                font-size: 24px;
+            }
+            .twitch div h3{
+                font-size: 35px;
+            }
+            .twitch div p{
+                font-size: 24px;
+            }
+            .secmods{
+                margin-top: 40px;
+            }
+            #news0001 h3 {
+                font-size: 30px !important;
+            }
+
+            #news0001 div {
+                font-size: 30px !important;
+            }
+            #news0001 p {
+                font-size: 25px !important;
+            }
+            aside div a img {
+                width: 25rem !important;
+                height: 25rem !important;
+            }
+            .secmods div h3 {
+                font-size: 45px !important;
+            }
+            #principal div h2 {
+                font-size: 45px !important;
+            }
+            .card:not(:first-child) {
+                display: none;
+            }
+
+            #card {
+                width: 100%;
+            }
+
+            #card div h5 {
+                font-size: 40px !important;
+            }
+
+            #card div p {
+                font-size: 25px;
+            }
+
+            #card div a {
+                font-size: 25px;
+            }
+
+            .btn-carousel,
+            #button-next2,
+            #button-prev2 {
+                width: 20vh;
+                height: 20vh;
+            }
+            .seccionnuevas div h3 {
+                font-size: 40px !important;
+            }
+            /*Nuevasnoticias*/
+            .cartanoticia{
+                padding-left: 20px !important;
+                padding-right: 20px !important;
+            }
+            .cartanoticia2{
+                padding-left: 20px !important;
+                padding-right: 20px !important;
+            }
+            .cartanoticia3{
+                padding-left: 20px !important;
+                padding-right: 20px !important; 
+            }
+            .cartanoticia4{
+                padding-left: 20px !important;
+                padding-right: 20px !important;
+            }
+            .cartanoticia5{
+                padding-left: 20px !important;
+                padding-right: 20px !important;
+            }
+            .cartanoticia6{
+                padding-left: 20px !important;
+                padding-right: 20px !important;
+            }
+            .cartanoticia7{
+                padding-left: 20px !important;
+                padding-right: 20px !important;
+            }
+            .cartanoticia8{
+                padding-left: 20px !important;
+                padding-right: 20px !important;
+            }
+            /*MODS*/
+            #grilla3 {
+                grid-template-rows: auto;
+                grid-template-columns: auto;
+            }
+
+            .listamods {
+                padding: 0;
+                padding-top: 20px;
+                margin-top: 0px;
+                margin-bottom: 0px;
+                grid-template-rows: auto;
+                grid-template-columns: auto;
+                grid-template-areas: ". carta1 carta2"
+                    "carta4 carta5 carta6"
+                    "carta8 carta9 carta10"
+                    "carta12 carta13 carta14";
+            }
+
+            .titmods {
+                margin-bottom: 0px !important;
+                margin-top: 0px !important;
+                width: 167.5px;
+                height: 100px;
+                margin-left: 100px;
+                margin-top: 100px !important;
+            }
+
+            .listamods .carta {
+                display: flex;
+            }
+
+            .listamods .carta1 {
+                display: flex;
+            }
+
+            .listamods .carta2 {
+                display: flex;
+            }
+
+            .listamods .carta4 {
+                display: flex;
+            }
+
+            .listamods .carta5 {
+                display: flex;
+            }
+
+            .listamods .carta6 {
+                display: flex;
+            }
+
+            .listamods .carta8 {
+                display: flex;
+            }
+
+            .listamods .carta9 {
+                display: flex;
+            }
+
+            .listamods .carta10 {
+                display: flex;
+            }
+
+            .listamods .carta12 {
+                display: flex;
+            }
+
+            .listamods .carta13 {
+                display: flex;
+            }
+
+            .listamods .carta14 {
+                display: flex;
+            }
+
+            header nav div a h1 {
+                font-size: 30px !important;
+            }
+
+            aside {
+                margin-left: 24px !important;
+                margin-bottom: 50px;
+            }
+            /*Videos*/
+            .lisvideos div div div .cards-wrapper #carta-youtube {
+                width: 100%;
+            }
+
+            .card-body h5 {
+                font-size: 35px !important;
+            }
+
+            div .cards-wrapper #carta-youtube {
+                width: 100%;
+            }
+
+            div .maslista {
+                font-size: 25px !important;
+            }
+
+            .seccionnuevas a {
+                margin-left: 50px !important;
+            }
+
+            .card-body h5 {
+                font-size: 15px;
+            }
+    
+        }
     }
-    @else if $vista == 992{
-        @media only screen and (max-width: 992px){
+
+    @else if $vista ==992 {
+        @media only screen and (max-width: 992px) {
+
             /*Index*/
             #grilla {
                 background: url(../images/fondo.jpg);
@@ -91,6 +414,7 @@
                     "main"
                     "footer";
             }
+
             #principal {
                 grid-area: main;
                 display: grid;
@@ -101,68 +425,90 @@
                     "secmods"
                     "noticias";
             }
-            .seccionnuevas div h3{
+
+            .seccionnuevas div h3 {
                 font-size: 40px !important;
             }
-            .card:not(:first-child){
+
+            .card:not(:first-child) {
                 display: none;
             }
-            #card{
+
+            #card {
                 width: 100%;
             }
-            #card div h5{
+
+            #card div h5 {
                 font-size: 40px !important;
             }
-            #card div p{
+
+            #card div p {
                 font-size: 25px;
             }
-            #card div a{
+
+            #card div a {
                 font-size: 25px;
             }
-            .btn-carousel, #button-next2, #button-prev2{
+
+            .btn-carousel,
+            #button-next2,
+            #button-prev2 {
                 width: 20vh;
                 height: 20vh;
             }
-            aside div a img{
+
+            aside div a img {
                 width: 25rem !important;
                 height: 25rem !important;
             }
-            aside div h1{
+
+            aside div h1 {
                 font-size: 45px !important;
             }
-            aside div div h3{
+
+            aside div div h3 {
                 font-size: 45px !important;
             }
-            aside div div p{
+
+            aside div div p {
                 font-size: 25px !important;
             }
-            .more{
+
+            .more {
                 font-size: 25px !important;
             }
-            .secmods div h3{
+
+            .secmods div h3 {
                 font-size: 45px !important;
             }
-            #principal div h2{
+
+            #principal div h2 {
                 font-size: 45px !important;
             }
-            #news0001 h3{
+
+            #news0001 h3 {
                 font-size: 30px !important;
             }
-            #news0001 div{
+
+            #news0001 div {
                 font-size: 30px !important;
             }
-            #news0001 p{
+
+            #news0001 p {
                 font-size: 25px !important;
             }
-            #news0001 img{
+
+            #news0001 img {
                 width: 45rem;
             }
+
             /*mods*/
-            #grilla3{
+            #grilla3 {
                 grid-template-rows: auto;
                 grid-template-columns: auto;
             }
-            .listamods{
+
+            .listamods {
                 padding: 0;
                 padding-top: 20px;
                 margin-top: 0px;
@@ -174,7 +520,8 @@
                     "carta8 carta9 carta10"
                     "carta12 carta13 carta14";
             }
-            .titmods{
+
+            .titmods {
                 margin-bottom: 0px !important;
                 margin-top: 0px !important;
                 width: 167.5px;
@@ -182,51 +529,119 @@
                 margin-left: 100px;
                 margin-top: 100px !important;
             }
-            .listamods .carta{display: flex;}
-            .listamods .carta1{display: flex;}
-            .listamods .carta2{display: flex;}
-            .listamods .carta4{display: flex;}
-            .listamods .carta5{display: flex;}
-            .listamods .carta6{display: flex;}
-            .listamods .carta8{display: flex;}
-            .listamods .carta9{display: flex;}
-            .listamods .carta10{display: flex;}
-            .listamods .carta12{display: flex;}
-            .listamods .carta13{display: flex;}
-            .listamods .carta14{display: flex;}
-            header nav div a h1{font-size: 30px !important;}
-            aside{margin-left: 24px !important; margin-bottom: 50px;}
-            
+
+            .listamods .carta {
+                display: flex;
+            }
+
+            .listamods .carta1 {
+                display: flex;
+            }
+
+            .listamods .carta2 {
+                display: flex;
+            }
+
+            .listamods .carta4 {
+                display: flex;
+            }
+
+            .listamods .carta5 {
+                display: flex;
+            }
+
+            .listamods .carta6 {
+                display: flex;
+            }
+
+            .listamods .carta8 {
+                display: flex;
+            }
+
+            .listamods .carta9 {
+                display: flex;
+            }
+
+            .listamods .carta10 {
+                display: flex;
+            }
+
+            .listamods .carta12 {
+                display: flex;
+            }
+
+            .listamods .carta13 {
+                display: flex;
+            }
+
+            .listamods .carta14 {
+                display: flex;
+            }
+
+            header nav div a h1 {
+                font-size: 30px !important;
+            }
+
+            aside {
+                margin-left: 24px !important;
+                margin-bottom: 50px;
+            }
+
             /*noticias nuevas*/
-            .aviso{margin-left: 50px; margin-right: 50px}
-            .cartanoticia, .cartanoticia2, .cartanoticia3, .cartanoticia4, .cartanoticia5,
-            .cartanoticia6, .cartanoticia7, .cartanoticia8{padding-left: 70px;padding-right: 70px;}
+            .aviso {
+                margin-left: 50px;
+                margin-right: 50px
+            }
+
+            .cartanoticia,
+            .cartanoticia2,
+            .cartanoticia3,
+            .cartanoticia4,
+            .cartanoticia5,
+            .cartanoticia6,
+            .cartanoticia7,
+            .cartanoticia8 {
+                padding-left: 70px;
+                padding-right: 70px;
+            }
+
             /*Videos*/
-            .lisvideos div div div .cards-wrapper #carta-youtube{
+            .lisvideos div div div .cards-wrapper #carta-youtube {
                 width: 100%;
             }
-            .card-body h5{
+
+            .card-body h5 {
                 font-size: 35px !important;
             }
-            div .cards-wrapper #carta-youtube{
+
+            div .cards-wrapper #carta-youtube {
                 width: 100%;
             }
-            div .maslista{font-size: 25px !important;}
-            .seccionnuevas  a{
+
+            div .maslista {
+                font-size: 25px !important;
+            }
+
+            .seccionnuevas a {
                 margin-left: 50px !important;
             }
-            
-            .card-body h5{font-size: 15px;}
-        } 
+
+            .card-body h5 {
+                font-size: 15px;
+            }
+        }
     }
-    @else if $vista == 768{
-        @media only screen and (max-width: 768px){
+
+    @else if $vista ==768 {
+        @media only screen and (max-width: 768px) {
+
             /*mdos*/
-            #grilla3{
+            #grilla3 {
                 grid-template-rows: auto;
                 grid-template-columns: auto;
             }
-            .listamods{
+
+            .listamods {
                 padding: 0;
                 padding-top: 20px;
                 margin-top: 0px;
@@ -240,123 +655,220 @@
                     "carta8 carta9"
                     "carta12 carta13";
             }
-            .listamods .carta{display: flex;}
-            .listamods .carta1{display: flex;}
-            .listamods .carta2{display: none !important;}
-            .listamods .carta3{display: none !important;}
-            .listamods .carta4{display: flex;}
-            .listamods .carta5{display: flex;}
-            .listamods .carta6{display: none !important;}
-            .listamods .carta7{display: none !important;}
-            .listamods .carta8{display: flex;}
-            .listamods .carta9{display: flex;}
-            .listamods .carta10{display: none !important;}
-            .listamods .carta11{display: none !important;}
-            .listamods .carta12{display: flex;}
-            .listamods .carta13{display: flex;}
-            .listamods .carta14{display: none !important;}
+
+            .listamods .carta {
+                display: flex;
+            }
+
+            .listamods .carta1 {
+                display: flex;
+            }
+
+            .listamods .carta2 {
+                display: none !important;
+            }
+
+            .listamods .carta3 {
+                display: none !important;
+            }
+
+            .listamods .carta4 {
+                display: flex;
+            }
+
+            .listamods .carta5 {
+                display: flex;
+            }
+
+            .listamods .carta6 {
+                display: none !important;
+            }
+
+            .listamods .carta7 {
+                display: none !important;
+            }
+
+            .listamods .carta8 {
+                display: flex;
+            }
+
+            .listamods .carta9 {
+                display: flex;
+            }
+
+            .listamods .carta10 {
+                display: none !important;
+            }
+
+            .listamods .carta11 {
+                display: none !important;
+            }
+
+            .listamods .carta12 {
+                display: flex;
+            }
+
+            .listamods .carta13 {
+                display: flex;
+            }
+
+            .listamods .carta14 {
+                display: none !important;
+            }
+
             /*noticias nuevas*/
-            main .cartanoticia{
-                padding-left: 50px !important;
-                padding-right: 50px !important; 
-            }
-            .cartanoticia2{
+            main .cartanoticia {
                 padding-left: 50px !important;
                 padding-right: 50px !important;
             }
-            .cartanoticia3{
+
+            .cartanoticia2 {
                 padding-left: 50px !important;
                 padding-right: 50px !important;
             }
-            .cartanoticia4{
+
+            .cartanoticia3 {
                 padding-left: 50px !important;
                 padding-right: 50px !important;
             }
-            .cartanoticia5{
+
+            .cartanoticia4 {
                 padding-left: 50px !important;
                 padding-right: 50px !important;
             }
-            .cartanoticia6{
+
+            .cartanoticia5 {
                 padding-left: 50px !important;
                 padding-right: 50px !important;
             }
-            .cartanoticia7{
+
+            .cartanoticia6 {
                 padding-left: 50px !important;
                 padding-right: 50px !important;
             }
-            .cartanoticia8{
+
+            .cartanoticia7 {
                 padding-left: 50px !important;
-                padding-right: 50px !important; 
+                padding-right: 50px !important;
             }
+
+            .cartanoticia8 {
+                padding-left: 50px !important;
+                padding-right: 50px !important;
+            }
+
             /*videos*/
-            .maslista{margin-left: 50px !important; font-size: 25px !important;}
-            .card-body h5{font-size: 12px;}
-            .seccionnuevas .cards-wrapper{padding-left: 50px;padding-right: 50px;}
+            .maslista {
+                margin-left: 50px !important;
+                font-size: 25px !important;
+            }
+
+            .card-body h5 {
+                font-size: 12px;
+            }
+
+            .seccionnuevas .cards-wrapper {
+                padding-left: 50px;
+                padding-right: 50px;
+            }
 
             /*Index*/
-           .col-6{
-            width: inherit;
-           }
-           aside div div p{
-            padding-left: 50px;
-            padding-right: 50px;
-            padding-bottom: 50px;
-           }
-           aside div div h3{
-            text-align: center;
-           }
-           aside div a img{
-            padding: 0px !important;
-            margin-left: 150px;
-           }
-        } 
+            .col-6 {
+                width: inherit;
+            }
+
+            aside div div p {
+                padding-left: 50px;
+                padding-right: 50px;
+                padding-bottom: 50px;
+            }
+
+            aside div div h3 {
+                text-align: center;
+            }
+
+            aside div a img {
+                padding: 0px !important;
+                margin-left: 150px;
+            }
+
+            /*contactame*/
+            .sobremi {
+                padding-left: 100px;
+                padding-right: 100px;
+            }
+        }
     }
-    @else if $vista == 576{
-        @media only screen and (max-width: 576px){
+
+    @else if $vista ==576 {
+        @media only screen and (max-width: 576px) {
+
             /*Index*/
-            .seccionnuevas .cards-wrapper{padding-left: 0;padding-right: 0;}
-            #card div h5{font-size: 17px;}
-            .row{margin-left: 0 !important;margin-right: 0 !important;}
-            
-            aside{
+            .seccionnuevas .cards-wrapper {
+                padding-left: 0;
+                padding-right: 0;
+            }
+
+            #card div h5 {
+                font-size: 17px;
+            }
+
+            .row {
+                margin-left: 0 !important;
+                margin-right: 0 !important;
+            }
+
+            aside {
                 width: 500px;
             }
-            #principal aside{
+
+            #principal aside {
                 margin-left: 20px !important;
             }
-            aside div a img{
+
+            aside div a img {
                 margin-left: 0px;
             }
-            .secmods{
+
+            .secmods {
                 width: 450px;
             }
-            .noticias{
+
+            .noticias {
                 width: 450px;
             }
-            .tarjmod{
+
+            .tarjmod {
                 width: 400px;
             }
-            main div div .more{
+
+            main div div .more {
                 margin-left: 150px !important;
             }
-            .noticias .more{
+
+            .noticias .more {
                 margin-left: 170px !important;
             }
-            #news0001{
+
+            #news0001 {
                 width: 360px;
             }
-            #news0001 img{
+
+            #news0001 img {
                 width: 500px !important;
             }
-            .tarjmod{
+
+            .tarjmod {
                 width: 358px;
             }
+
             /*mods*/
-            #grilla3{
+            #grilla3 {
                 grid-template-rows: auto;
                 grid-template-columns: auto;
             }
-            .listamods{
+
+            .listamods {
                 padding: 0;
                 padding-top: 20px;
                 margin-top: 0px;
@@ -368,33 +880,70 @@
                     "carta8"
                     "carta12";
             }
-            .listamods .carta{display: none;}
-            .listamods .carta5{display: none;}
-            .listamods .carta9{display: none;}
-            .listamods .carta13{display: none;}
-            #grilla3{
+
+            .listamods .carta {
+                display: none;
+            }
+
+            .listamods .carta5 {
+                display: none;
+            }
+
+            .listamods .carta9 {
+                display: none;
+            }
+
+            .listamods .carta13 {
+                display: none;
+            }
+
+            #grilla3 {
                 grid-template-rows: .01fr .1fr 3fr .1fr;
             }
-            .listamods{
+
+            .listamods {
                 padding: 0;
                 padding-top: 20px;
             }
-            .titmods{
+
+            .titmods {
                 height: 50px;
                 width: 217.5px;
                 margin-left: 25px;
             }
+
             /*noticias nuevas*/
-            .aviso{margin-left: 20px; margin-right: 20px}
-            .cartanoticia, .cartanoticia2, .cartanoticia3, .cartanoticia4, .cartanoticia5,
-            .cartanoticia6, .cartanoticia7, .cartanoticia8{padding-left: 40px;padding-right: 40px;}
-            
+            .aviso {
+                margin-left: 20px;
+                margin-right: 20px
+            }
+
+            .cartanoticia,
+            .cartanoticia2,
+            .cartanoticia3,
+            .cartanoticia4,
+            .cartanoticia5,
+            .cartanoticia6,
+            .cartanoticia7,
+            .cartanoticia8 {
+                padding-left: 40px;
+                padding-right: 40px;
+            }
+
             /*videos*/
-            .card-body h5{font-size: 8px;}
-            .seccionnuevas .cards-wrapper{padding-left: 20px;padding-right: 20px;}
-            .seccionnuevas  a{
+            .card-body h5 {
+                font-size: 8px;
+            }
+
+            .seccionnuevas .cards-wrapper {
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+
+            .seccionnuevas a {
                 margin-left: 150px !important;
             }
+
             #grilla2 {
                 background: url(../images/fondo.jpg);
                 background-size: 100%;
@@ -406,54 +955,127 @@
                     "aviso"
                     "footer";
             }
+
             /*Contacto*/
             .sobremi {
                 height: 70vh;
                 padding-inline: 50px;
                 animation: movimiento 10s infinite linear alternate;
             }
-            .sobremi div p {font-size: 15px;}
-            .image-face{width: 500px;}
-            .image-youtu{width: 500px;}
-        } 
+
+            .sobremi div p {
+                font-size: 25px;
+            }
+
+            .image-face {
+                width: 500px;
+            }
+
+            .image-youtu {
+                width: 500px;
+            }
+        }
     }
-    @else if $vista == 500{
-        @media only screen and (max-width: 500px){
+
+    @else if $vista ==500 {
+        @media only screen and (max-width: 500px) {
 
             /*index*/
-            aside{
+            aside {
                 width: 400px;
             }
-            aside div a img{
+
+            aside div a img {
                 width: 300px !important;
                 height: 300px !important;
             }
-            .secmods{
+
+            .secmods {
                 margin-left: 0px !important;
                 margin-right: 0px !important;
             }
-            main .noticias{
+
+            main .noticias {
                 margin-left: 0px !important;
                 margin-right: 0px !important;
             }
-            .noticias{
+
+            .noticias {
                 margin-right: 0px !important;
             }
+
             /*mods*/
-            #grilla3{
+            #grilla3 {
                 grid-template-rows: .01fr .1fr 3fr .1fr;
             }
-            .listamods{
+
+            .listamods {
                 padding: 0;
                 padding-top: 20px;
             }
-            .listamods .carta14{display: none;}
-            .listamods .titmods {font-size: 12px;}
-            .info {padding-inline: 15px;}
-            .carta5 h4 {padding-bottom: 5px;font-size: 8px;}
-            .carta9 h4 {padding-bottom: 5px;font-size: 8px;}
-            .carta13 h4 {padding-bottom: 5px;font-size: 8px;}
-            
-        } 
+
+            .listamods .carta14 {
+                display: none;
+            }
+
+            .listamods .titmods {
+                font-size: 12px;
+            }
+
+            .info {
+                padding-inline: 15px;
+            }
+
+            .carta5 h4 {
+                padding-bottom: 5px;
+                font-size: 8px;
+            }
+
+            .carta9 h4 {
+                padding-bottom: 5px;
+                font-size: 8px;
+            }
+
+            .carta13 h4 {
+                padding-bottom: 5px;
+                font-size: 8px;
+            }
+
+            /*contacto*/
+            .clearfix {
+                margin-right: 70px;
+                padding-right: 20px;
+                padding-left: 20px;
+            }
+
+            .clearfix img {
+                width: 370px;
+                height: 410px;
+            }
+
+            .container {
+                padding-left: 50px;
+                width: 400px;
+                margin-left: 0px;
+                margin-right: 0px;
+            }
+
+            .container div img {
+                width: 324px;
+            }
+
+            .container div div h1 {
+                width: 304px;
+            }
+
+            .image-face {
+                width: 300px;
+            }
+
+            .image-youtu {
+                width: 300px;
+                margin-left: 0px !important;
+            }
+        }
     }
 }
