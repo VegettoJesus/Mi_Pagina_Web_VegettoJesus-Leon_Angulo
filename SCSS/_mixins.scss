@@ -631,7 +631,6 @@
             }
         }
     }
-
     @else if $vista ==768 {
         @media only screen and (max-width: 768px) {
 
@@ -982,17 +981,31 @@
 
             /*index*/
             aside {
-                width: 400px;
+                width: 300px;
+                margin-left: 0px !important;
             }
-
+            aside div p{
+                padding-right: 0px !important;
+                padding-left: 0px !important;
+            }
             aside div a img {
-                width: 300px !important;
+                width: 250px !important;
                 height: 300px !important;
             }
-
+            .perfil div h3{
+                font-size: 31px !important;
+            }
             .secmods {
                 margin-left: 0px !important;
                 margin-right: 0px !important;
+                width: 280px;
+                padding-left: 24px !important;
+            }
+            .tarjmod{
+                width: 228px;
+            }
+            .secmods div .more{
+                margin-left: 25px !important;
             }
 
             main .noticias {
@@ -1002,8 +1015,31 @@
 
             .noticias {
                 margin-right: 0px !important;
+                width: 284px;
+                padding-left: 10px !important;
             }
-
+            .date{
+                width: 126px !important;
+                margin-right: 100px !important;
+            }
+            .subtitulo{
+                width: 236px !important;
+                padding-right: 60px !important;
+            }
+            #news0001 img{
+                width: 258px !important;
+            }
+            #news0001 p{
+                width: 220px;
+            }
+            .noticias div .more{
+                margin-left: 25px !important;
+            }
+            /*NuevasNoticias*/
+            .aviso{
+                width: 260px;
+            }
+            
             /*mods*/
             #grilla3 {
                 grid-template-rows: .01fr .1fr 3fr .1fr;
@@ -1041,41 +1077,66 @@
                 font-size: 8px;
             }
 
+            /*Videos*/
+            .cards-wrapper{
+                width: 100%;
+            }
+            .button-next2{
+                left: 190px !important;
+                margin-right: 0px !important;
+            }
+            .seccionnuevas div h3{
+                width: 221px;
+            }
+            .seccionnuevas div a{
+                margin-left: 0px !important;
+            }
+
             /*contacto*/
+            .sobremi{
+                padding-right: 0px;
+                padding-left: 0px;
+            }
             .clearfix {
-                margin-right: 70px;
-                padding-right: 20px;
-                padding-left: 20px;
+                margin-right: 0px;
+                padding-right: 30px;
+                padding-left: 30px;
+                width: 290px;
             }
 
             .clearfix img {
-                width: 370px;
+                width: 230px;
                 height: 410px;
             }
 
             .container {
-                padding-left: 50px;
-                width: 400px;
+                padding-left: 25px;
+                padding-right: 0px;
+                width: 280px;
                 margin-left: 0px;
                 margin-right: 0px;
             }
 
             .container div img {
-                width: 324px;
+                width: 224px;
             }
 
             .container div div h1 {
-                width: 304px;
+                width: 200px;
             }
 
             .image-face {
-                width: 300px;
+                width: 200px;
             }
 
             .image-youtu {
-                width: 300px;
+                width: 200px;
                 margin-left: 0px !important;
+            }
+            footer div div{
+                width: 276px;
             }
         }
     }
 }
+
